@@ -1,0 +1,1620 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '--save',
+1 verbose cli   'axios',
+1 verbose cli   'redux-promise' ]
+2 info using npm@2.11.3
+3 info using node@v6.2.0
+4 verbose install initial load of /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/package.json
+5 verbose installManyTop reading scoped package data from /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/babel-core/package.json
+6 verbose installManyTop reading scoped package data from /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/babel-loader/package.json
+7 verbose installManyTop reading scoped package data from /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/babel-preset-es2015/package.json
+8 verbose installManyTop reading scoped package data from /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/babel-preset-react/package.json
+9 verbose installManyTop reading scoped package data from /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/babel-preset-stage-1/package.json
+10 verbose installManyTop reading scoped package data from /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/chai/package.json
+11 verbose installManyTop reading scoped package data from /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/chai-jquery/package.json
+12 verbose installManyTop reading scoped package data from /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/jquery/package.json
+13 verbose installManyTop reading scoped package data from /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/jsdom/package.json
+14 verbose installManyTop reading scoped package data from /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/lodash/package.json
+15 verbose installManyTop reading scoped package data from /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/mocha/package.json
+16 verbose installManyTop reading scoped package data from /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/react/package.json
+17 verbose installManyTop reading scoped package data from /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/react-addons-test-utils/package.json
+18 verbose installManyTop reading scoped package data from /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/react-dom/package.json
+19 verbose installManyTop reading scoped package data from /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/react-redux/package.json
+20 verbose installManyTop reading scoped package data from /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/react-router/package.json
+21 verbose installManyTop reading scoped package data from /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/react-router-dom/package.json
+22 verbose installManyTop reading scoped package data from /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/redux/package.json
+23 verbose installManyTop reading scoped package data from /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/webpack/package.json
+24 verbose installManyTop reading scoped package data from /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/webpack-dev-server/package.json
+25 info package.json chai-jquery@2.0.0 No license field.
+26 verbose readDependencies loading dependencies from /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/package.json
+27 silly cache add args [ 'axios', null ]
+28 verbose cache add spec axios
+29 silly cache add args [ 'redux-promise', null ]
+30 verbose cache add spec redux-promise
+31 silly cache add parsed spec Result {
+31 silly cache add   raw: 'axios',
+31 silly cache add   scope: null,
+31 silly cache add   name: 'axios',
+31 silly cache add   rawSpec: '',
+31 silly cache add   spec: '*',
+31 silly cache add   type: 'range' }
+32 silly addNamed axios@*
+33 verbose addNamed "*" is a valid semver range for axios
+34 silly addNameRange { name: 'axios', range: '*', hasData: false }
+35 silly mapToRegistry name axios
+36 silly mapToRegistry using default registry
+37 silly mapToRegistry registry https://registry.npmjs.org/
+38 silly mapToRegistry uri https://registry.npmjs.org/axios
+39 verbose addNameRange registry:https://registry.npmjs.org/axios not in flight; fetching
+40 silly cache add parsed spec Result {
+40 silly cache add   raw: 'redux-promise',
+40 silly cache add   scope: null,
+40 silly cache add   name: 'redux-promise',
+40 silly cache add   rawSpec: '',
+40 silly cache add   spec: '*',
+40 silly cache add   type: 'range' }
+41 silly addNamed redux-promise@*
+42 verbose addNamed "*" is a valid semver range for redux-promise
+43 silly addNameRange { name: 'redux-promise', range: '*', hasData: false }
+44 silly mapToRegistry name redux-promise
+45 silly mapToRegistry using default registry
+46 silly mapToRegistry registry https://registry.npmjs.org/
+47 silly mapToRegistry uri https://registry.npmjs.org/redux-promise
+48 verbose addNameRange registry:https://registry.npmjs.org/redux-promise not in flight; fetching
+49 verbose request uri https://registry.npmjs.org/axios
+50 verbose request no auth needed
+51 info attempt registry request try #1 at 2:57:50 PM
+52 verbose request id 0527599b57c7947e
+53 verbose etag W/"59077a53-15f0c"
+54 verbose lastModified Mon, 01 May 2017 18:11:31 GMT
+55 http request GET https://registry.npmjs.org/axios
+56 verbose request uri https://registry.npmjs.org/redux-promise
+57 verbose request no auth needed
+58 info attempt registry request try #1 at 2:57:51 PM
+59 verbose etag W/"58fb9fb8-40af"
+60 verbose lastModified Sat, 22 Apr 2017 18:23:52 GMT
+61 http request GET https://registry.npmjs.org/redux-promise
+62 http 304 https://registry.npmjs.org/axios
+63 silly get cb [ 304,
+63 silly get   { date: 'Mon, 01 May 2017 21:57:51 GMT',
+63 silly get     via: '1.1 varnish',
+63 silly get     'cache-control': 'max-age=300',
+63 silly get     etag: 'W/"59077a53-15f0c"',
+63 silly get     age: '60',
+63 silly get     connection: 'keep-alive',
+63 silly get     'x-served-by': 'cache-sjc3146-SJC',
+63 silly get     'x-cache': 'HIT',
+63 silly get     'x-cache-hits': '1',
+63 silly get     'x-timer': 'S1493675871.188825,VS0,VE0',
+63 silly get     vary: 'Accept-Encoding' } ]
+64 verbose etag https://registry.npmjs.org/axios from cache
+65 verbose get saving axios to /Users/brettcelestre/.npm/registry.npmjs.org/axios/.cache.json
+66 silly addNameRange number 2 { name: 'axios', range: '*', hasData: true }
+67 silly addNameRange versions [ 'axios',
+67 silly addNameRange   [ '0.1.0',
+67 silly addNameRange     '0.2.0',
+67 silly addNameRange     '0.2.1',
+67 silly addNameRange     '0.2.2',
+67 silly addNameRange     '0.3.0',
+67 silly addNameRange     '0.3.1',
+67 silly addNameRange     '0.4.0',
+67 silly addNameRange     '0.4.1',
+67 silly addNameRange     '0.4.2',
+67 silly addNameRange     '0.5.0',
+67 silly addNameRange     '0.5.1',
+67 silly addNameRange     '0.5.2',
+67 silly addNameRange     '0.5.3',
+67 silly addNameRange     '0.5.4',
+67 silly addNameRange     '0.6.0',
+67 silly addNameRange     '0.7.0',
+67 silly addNameRange     '0.8.0',
+67 silly addNameRange     '0.8.1',
+67 silly addNameRange     '0.9.0',
+67 silly addNameRange     '0.9.1',
+67 silly addNameRange     '0.10.0',
+67 silly addNameRange     '0.11.0',
+67 silly addNameRange     '0.11.1',
+67 silly addNameRange     '0.12.0',
+67 silly addNameRange     '0.13.0',
+67 silly addNameRange     '0.13.1',
+67 silly addNameRange     '0.14.0',
+67 silly addNameRange     '0.15.0',
+67 silly addNameRange     '0.15.1',
+67 silly addNameRange     '0.15.2',
+67 silly addNameRange     '0.15.3',
+67 silly addNameRange     '0.16.0',
+67 silly addNameRange     '0.16.1' ] ]
+68 silly addNamed axios@0.16.1
+69 verbose addNamed "0.16.1" is a plain semver version for axios
+70 http 304 https://registry.npmjs.org/redux-promise
+71 silly get cb [ 304,
+71 silly get   { date: 'Mon, 01 May 2017 21:57:51 GMT',
+71 silly get     via: '1.1 varnish',
+71 silly get     'cache-control': 'max-age=300',
+71 silly get     etag: 'W/"58fb9fb8-40af"',
+71 silly get     age: '0',
+71 silly get     connection: 'keep-alive',
+71 silly get     'x-served-by': 'cache-sjc3134-SJC',
+71 silly get     'x-cache': 'HIT',
+71 silly get     'x-cache-hits': '1',
+71 silly get     'x-timer': 'S1493675871.186219,VS0,VE19',
+71 silly get     vary: 'Accept-Encoding' } ]
+72 verbose etag https://registry.npmjs.org/redux-promise from cache
+73 verbose get saving redux-promise to /Users/brettcelestre/.npm/registry.npmjs.org/redux-promise/.cache.json
+74 silly cache afterAdd axios@0.16.1
+75 verbose afterAdd /Users/brettcelestre/.npm/axios/0.16.1/package/package.json not in flight; writing
+76 silly addNameRange number 2 { name: 'redux-promise', range: '*', hasData: true }
+77 silly addNameRange versions [ 'redux-promise',
+77 silly addNameRange   [ '0.1.0',
+77 silly addNameRange     '0.1.1',
+77 silly addNameRange     '0.2.0',
+77 silly addNameRange     '0.3.0',
+77 silly addNameRange     '0.4.0',
+77 silly addNameRange     '0.5.0',
+77 silly addNameRange     '0.6.0-alpha',
+77 silly addNameRange     '0.5.1',
+77 silly addNameRange     '0.5.2',
+77 silly addNameRange     '0.5.3' ] ]
+78 silly addNamed redux-promise@0.5.3
+79 verbose addNamed "0.5.3" is a plain semver version for redux-promise
+80 verbose afterAdd /Users/brettcelestre/.npm/axios/0.16.1/package/package.json written
+81 silly cache afterAdd redux-promise@0.5.3
+82 verbose afterAdd /Users/brettcelestre/.npm/redux-promise/0.5.3/package/package.json not in flight; writing
+83 verbose afterAdd /Users/brettcelestre/.npm/redux-promise/0.5.3/package/package.json written
+84 silly install resolved [ { name: 'axios',
+84 silly install resolved     version: '0.16.1',
+84 silly install resolved     description: 'Promise based HTTP client for the browser and node.js',
+84 silly install resolved     main: 'index.js',
+84 silly install resolved     scripts:
+84 silly install resolved      { test: 'grunt test',
+84 silly install resolved        start: 'node ./sandbox/server.js',
+84 silly install resolved        build: 'NODE_ENV=production grunt build',
+84 silly install resolved        preversion: 'npm test',
+84 silly install resolved        version: 'npm run build && grunt version && git add -A dist && git add CHANGELOG.md bower.json package.json',
+84 silly install resolved        postversion: 'git push && git push --tags',
+84 silly install resolved        examples: 'node ./examples/server.js',
+84 silly install resolved        coveralls: 'cat coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js' },
+84 silly install resolved     repository:
+84 silly install resolved      { type: 'git',
+84 silly install resolved        url: 'git+https://github.com/mzabriskie/axios.git' },
+84 silly install resolved     keywords: [ 'xhr', 'http', 'ajax', 'promise', 'node' ],
+84 silly install resolved     author: { name: 'Matt Zabriskie' },
+84 silly install resolved     license: 'MIT',
+84 silly install resolved     bugs: { url: 'https://github.com/mzabriskie/axios/issues' },
+84 silly install resolved     homepage: 'https://github.com/mzabriskie/axios',
+84 silly install resolved     devDependencies:
+84 silly install resolved      { coveralls: '^2.11.9',
+84 silly install resolved        'es6-promise': '^4.0.5',
+84 silly install resolved        grunt: '^1.0.1',
+84 silly install resolved        'grunt-banner': '^0.6.0',
+84 silly install resolved        'grunt-cli': '^1.2.0',
+84 silly install resolved        'grunt-contrib-clean': '^1.0.0',
+84 silly install resolved        'grunt-contrib-nodeunit': '^1.0.0',
+84 silly install resolved        'grunt-contrib-watch': '^1.0.0',
+84 silly install resolved        'grunt-eslint': '^19.0.0',
+84 silly install resolved        'grunt-karma': '^2.0.0',
+84 silly install resolved        'grunt-ts': '^6.0.0-beta.3',
+84 silly install resolved        'grunt-webpack': '^1.0.18',
+84 silly install resolved        'istanbul-instrumenter-loader': '^1.0.0',
+84 silly install resolved        'jasmine-core': '^2.4.1',
+84 silly install resolved        karma: '^1.3.0',
+84 silly install resolved        'karma-chrome-launcher': '^2.0.0',
+84 silly install resolved        'karma-coverage': '^1.0.0',
+84 silly install resolved        'karma-firefox-launcher': '^1.0.0',
+84 silly install resolved        'karma-jasmine': '^1.0.2',
+84 silly install resolved        'karma-jasmine-ajax': '^0.1.13',
+84 silly install resolved        'karma-opera-launcher': '^1.0.0',
+84 silly install resolved        'karma-phantomjs-launcher': '^1.0.0',
+84 silly install resolved        'karma-safari-launcher': '^1.0.0',
+84 silly install resolved        'karma-sauce-launcher': '^1.1.0',
+84 silly install resolved        'karma-sinon': '^1.0.5',
+84 silly install resolved        'karma-sourcemap-loader': '^0.3.7',
+84 silly install resolved        'karma-webpack': '^1.7.0',
+84 silly install resolved        'load-grunt-tasks': '^3.5.2',
+84 silly install resolved        minimist: '^1.2.0',
+84 silly install resolved        'phantomjs-prebuilt': '^2.1.7',
+84 silly install resolved        sinon: '^1.17.4',
+84 silly install resolved        webpack: '^1.13.1',
+84 silly install resolved        'webpack-dev-server': '^1.14.1',
+84 silly install resolved        'url-search-params': '^0.6.1',
+84 silly install resolved        typescript: '^2.0.3' },
+84 silly install resolved     browser: { './lib/adapters/http.js': './lib/adapters/xhr.js' },
+84 silly install resolved     typings: './index.d.ts',
+84 silly install resolved     dependencies: { 'follow-redirects': '^1.2.3' },
+84 silly install resolved     gitHead: '5c8095e48329dacaec1f8d43a9b84ed275fbd0ef',
+84 silly install resolved     _id: 'axios@0.16.1',
+84 silly install resolved     _shasum: 'c0b6d26600842384b8f509e57111f0d2df8223ca',
+84 silly install resolved     _from: 'axios@*',
+84 silly install resolved     _npmVersion: '3.10.10',
+84 silly install resolved     _nodeVersion: '6.10.1',
+84 silly install resolved     _npmUser: { name: 'nickuraltsev', email: 'nick.uraltsev@gmail.com' },
+84 silly install resolved     dist:
+84 silly install resolved      { shasum: 'c0b6d26600842384b8f509e57111f0d2df8223ca',
+84 silly install resolved        tarball: 'https://registry.npmjs.org/axios/-/axios-0.16.1.tgz' },
+84 silly install resolved     maintainers: [ [Object], [Object] ],
+84 silly install resolved     _npmOperationalInternal:
+84 silly install resolved      { host: 'packages-18-east.internal.npmjs.com',
+84 silly install resolved        tmp: 'tmp/axios-0.16.1.tgz_1491677517114_0.6866208903957158' },
+84 silly install resolved     directories: {},
+84 silly install resolved     _resolved: 'https://registry.npmjs.org/axios/-/axios-0.16.1.tgz',
+84 silly install resolved     readme: 'ERROR: No README data found!' },
+84 silly install resolved   { name: 'redux-promise',
+84 silly install resolved     version: '0.5.3',
+84 silly install resolved     description: 'FSA-compliant promise middleware for Redux.',
+84 silly install resolved     main: 'lib/index.js',
+84 silly install resolved     scripts: { test: 'make test', prepublish: 'make clean build' },
+84 silly install resolved     repository:
+84 silly install resolved      { type: 'git',
+84 silly install resolved        url: 'git+https://github.com/acdlite/redux-promise.git' },
+84 silly install resolved     homepage: 'https://github.com/acdlite/redux-promise',
+84 silly install resolved     keywords:
+84 silly install resolved      [ 'redux',
+84 silly install resolved        'promise',
+84 silly install resolved        'middleware',
+84 silly install resolved        'redux-middleware',
+84 silly install resolved        'fsa',
+84 silly install resolved        'flux' ],
+84 silly install resolved     author: { name: 'Andrew Clark', email: 'acdlite@me.com' },
+84 silly install resolved     license: 'MIT',
+84 silly install resolved     devDependencies:
+84 silly install resolved      { babel: '^5.6.14',
+84 silly install resolved        'babel-core': '^5.6.15',
+84 silly install resolved        'babel-eslint': '^5.0.0',
+84 silly install resolved        chai: '^3.0.0',
+84 silly install resolved        'chai-as-promised': '^5.1.0',
+84 silly install resolved        eslint: '^0.24.0',
+84 silly install resolved        'eslint-config-airbnb': '0.0.6',
+84 silly install resolved        mocha: '^2.2.5',
+84 silly install resolved        sinon: '^1.15.4' },
+84 silly install resolved     dependencies: { 'flux-standard-action': '^0.6.1' },
+84 silly install resolved     gitHead: 'd2338adac128436a623e3e40a6624074d8d01a52',
+84 silly install resolved     bugs: { url: 'https://github.com/acdlite/redux-promise/issues' },
+84 silly install resolved     _id: 'redux-promise@0.5.3',
+84 silly install resolved     _shasum: 'e97e6c9d3bf376eacb79babe6d906da20112d6d8',
+84 silly install resolved     _from: 'redux-promise@*',
+84 silly install resolved     _npmVersion: '3.6.0',
+84 silly install resolved     _nodeVersion: '5.7.1',
+84 silly install resolved     _npmUser: { name: 'acdlite', email: 'acdlite@me.com' },
+84 silly install resolved     dist:
+84 silly install resolved      { shasum: 'e97e6c9d3bf376eacb79babe6d906da20112d6d8',
+84 silly install resolved        tarball: 'https://registry.npmjs.org/redux-promise/-/redux-promise-0.5.3.tgz' },
+84 silly install resolved     maintainers: [ [Object] ],
+84 silly install resolved     _npmOperationalInternal:
+84 silly install resolved      { host: 'packages-12-west.internal.npmjs.com',
+84 silly install resolved        tmp: 'tmp/redux-promise-0.5.3.tgz_1458072064524_0.03246037848293781' },
+84 silly install resolved     directories: {},
+84 silly install resolved     _resolved: 'https://registry.npmjs.org/redux-promise/-/redux-promise-0.5.3.tgz',
+84 silly install resolved     readme: 'ERROR: No README data found!' } ]
+85 info install axios@0.16.1 into /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts
+86 info install redux-promise@0.5.3 into /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts
+87 info installOne axios@0.16.1
+88 verbose installOne of axios to /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts not in flight; installing
+89 info installOne redux-promise@0.5.3
+90 verbose installOne of redux-promise to /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts not in flight; installing
+91 verbose lock using /Users/brettcelestre/.npm/_locks/axios-de9e51c115a1f238.lock for /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/axios
+92 silly install write writing axios 0.16.1 to /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/axios
+93 verbose lock using /Users/brettcelestre/.npm/_locks/redux-promise-8723062198d3c7f4.lock for /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/redux-promise
+94 silly install write writing redux-promise 0.5.3 to /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/redux-promise
+95 verbose unbuild node_modules/axios
+96 verbose unbuild node_modules/redux-promise
+97 silly gentlyRm /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/axios is being purged from base /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts
+98 verbose gentlyRm don't care about contents; nuking /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/axios
+99 silly gentlyRm /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/redux-promise is being purged from base /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts
+100 verbose gentlyRm don't care about contents; nuking /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/redux-promise
+101 verbose tar unpack /Users/brettcelestre/.npm/axios/0.16.1/package.tgz
+102 verbose tar unpacking to /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/axios
+103 silly gentlyRm /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/axios is being purged
+104 verbose gentlyRm don't care about contents; nuking /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/axios
+105 verbose tar unpack /Users/brettcelestre/.npm/redux-promise/0.5.3/package.tgz
+106 verbose tar unpacking to /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/redux-promise
+107 silly gentlyRm /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/redux-promise is being purged
+108 verbose gentlyRm don't care about contents; nuking /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/redux-promise
+109 silly gunzTarPerm modes [ '755', '644' ]
+110 silly gunzTarPerm modes [ '755', '644' ]
+111 silly gunzTarPerm extractEntry package.json
+112 silly gunzTarPerm extractEntry package.json
+113 silly gunzTarPerm extractEntry README.md
+114 silly gunzTarPerm extractEntry .npmignore
+115 silly gunzTarPerm extractEntry README.md
+116 silly gunzTarPerm extractEntry LICENSE
+117 silly gunzTarPerm extractEntry Makefile
+118 silly gunzTarPerm extractEntry .travis.yml
+119 silly gunzTarPerm extractEntry index.js
+120 silly gunzTarPerm extractEntry dist/axios.js
+121 silly gunzTarPerm extractEntry dist/axios.min.js
+122 silly gunzTarPerm extractEntry dist/axios.map
+123 silly gunzTarPerm extractEntry .eslintrc
+124 silly gunzTarPerm extractEntry lib/index.js
+125 silly gunzTarPerm extractEntry dist/axios.min.map
+126 silly gunzTarPerm extractEntry lib/__tests__/init.js
+127 silly gunzTarPerm extractEntry lib/__tests__/promiseMiddleware-test.js
+128 silly gunzTarPerm extractEntry CHANGELOG.md
+129 silly gunzTarPerm extractEntry UPGRADE_GUIDE.md
+130 silly gunzTarPerm extractEntry index.d.ts
+131 silly gunzTarPerm extractEntry lib/axios.js
+132 silly gunzTarPerm extractEntry lib/defaults.js
+133 silly gunzTarPerm extractEntry lib/utils.js
+134 silly gunzTarPerm extractEntry lib/adapters/README.md
+135 silly gunzTarPerm extractEntry lib/adapters/http.js
+136 silly gunzTarPerm extractEntry lib/adapters/xhr.js
+137 silly gunzTarPerm extractEntry lib/cancel/Cancel.js
+138 silly gunzTarPerm extractEntry lib/cancel/CancelToken.js
+139 silly gunzTarPerm extractEntry lib/cancel/isCancel.js
+140 silly gunzTarPerm extractEntry lib/core/README.md
+141 silly gunzTarPerm extractEntry lib/core/Axios.js
+142 silly gunzTarPerm extractEntry lib/core/InterceptorManager.js
+143 silly gunzTarPerm extractEntry lib/core/createError.js
+144 silly gunzTarPerm extractEntry lib/core/dispatchRequest.js
+145 silly gunzTarPerm extractEntry lib/core/enhanceError.js
+146 verbose write writing to /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/redux-promise/package.json
+147 silly gunzTarPerm extractEntry lib/core/settle.js
+148 silly gunzTarPerm extractEntry lib/core/transformData.js
+149 info preinstall redux-promise@0.5.3
+150 verbose readDependencies loading dependencies from /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/redux-promise/package.json
+151 silly gunzTarPerm extractEntry lib/helpers/README.md
+152 silly gunzTarPerm extractEntry lib/helpers/btoa.js
+153 silly gunzTarPerm extractEntry lib/helpers/buildURL.js
+154 silly prepareForInstallMany adding flux-standard-action@^0.6.1 from redux-promise dependencies
+155 verbose readDependencies loading dependencies from /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/redux-promise/package.json
+156 silly gunzTarPerm extractEntry lib/helpers/combineURLs.js
+157 silly gunzTarPerm extractEntry lib/helpers/cookies.js
+158 silly gunzTarPerm extractEntry lib/helpers/bind.js
+159 silly gunzTarPerm extractEntry lib/helpers/isAbsoluteURL.js
+160 silly cache add args [ 'flux-standard-action@^0.6.1', null ]
+161 verbose cache add spec flux-standard-action@^0.6.1
+162 silly cache add parsed spec Result {
+162 silly cache add   raw: 'flux-standard-action@^0.6.1',
+162 silly cache add   scope: null,
+162 silly cache add   name: 'flux-standard-action',
+162 silly cache add   rawSpec: '^0.6.1',
+162 silly cache add   spec: '>=0.6.1 <0.7.0',
+162 silly cache add   type: 'range' }
+163 silly addNamed flux-standard-action@>=0.6.1 <0.7.0
+164 verbose addNamed ">=0.6.1 <0.7.0" is a valid semver range for flux-standard-action
+165 silly addNameRange { name: 'flux-standard-action',
+165 silly addNameRange   range: '>=0.6.1 <0.7.0',
+165 silly addNameRange   hasData: false }
+166 silly mapToRegistry name flux-standard-action
+167 silly mapToRegistry using default registry
+168 silly mapToRegistry registry https://registry.npmjs.org/
+169 silly mapToRegistry uri https://registry.npmjs.org/flux-standard-action
+170 verbose addNameRange registry:https://registry.npmjs.org/flux-standard-action not in flight; fetching
+171 silly gunzTarPerm extractEntry lib/helpers/isURLSameOrigin.js
+172 silly gunzTarPerm extractEntry lib/helpers/normalizeHeaderName.js
+173 silly gunzTarPerm extractEntry lib/helpers/parseHeaders.js
+174 verbose request uri https://registry.npmjs.org/flux-standard-action
+175 verbose request no auth needed
+176 info attempt registry request try #1 at 2:57:51 PM
+177 verbose etag W/"58b078b7-4b7d"
+178 verbose lastModified Fri, 24 Feb 2017 18:17:27 GMT
+179 http request GET https://registry.npmjs.org/flux-standard-action
+180 silly gunzTarPerm extractEntry lib/helpers/spread.js
+181 silly gunzTarPerm extractEntry lib/helpers/deprecatedMethod.js
+182 http 304 https://registry.npmjs.org/flux-standard-action
+183 silly get cb [ 304,
+183 silly get   { date: 'Mon, 01 May 2017 21:57:51 GMT',
+183 silly get     via: '1.1 varnish',
+183 silly get     'cache-control': 'max-age=300',
+183 silly get     etag: 'W/"58b078b7-4b7d"',
+183 silly get     age: '239',
+183 silly get     connection: 'keep-alive',
+183 silly get     'x-served-by': 'cache-sjc3146-SJC',
+183 silly get     'x-cache': 'HIT',
+183 silly get     'x-cache-hits': '1',
+183 silly get     'x-timer': 'S1493675871.332615,VS0,VE0',
+183 silly get     vary: 'Accept-Encoding' } ]
+184 verbose etag https://registry.npmjs.org/flux-standard-action from cache
+185 verbose get saving flux-standard-action to /Users/brettcelestre/.npm/registry.npmjs.org/flux-standard-action/.cache.json
+186 silly addNameRange number 2 { name: 'flux-standard-action',
+186 silly addNameRange   range: '>=0.6.1 <0.7.0',
+186 silly addNameRange   hasData: true }
+187 silly addNameRange versions [ 'flux-standard-action',
+187 silly addNameRange   [ '0.1.0',
+187 silly addNameRange     '0.2.0',
+187 silly addNameRange     '0.3.1',
+187 silly addNameRange     '0.4.0',
+187 silly addNameRange     '0.5.0',
+187 silly addNameRange     '0.6.0',
+187 silly addNameRange     '0.6.1',
+187 silly addNameRange     '1.0.0',
+187 silly addNameRange     '1.1.0',
+187 silly addNameRange     '1.2.0' ] ]
+188 silly addNamed flux-standard-action@0.6.1
+189 verbose addNamed "0.6.1" is a plain semver version for flux-standard-action
+190 silly cache afterAdd flux-standard-action@0.6.1
+191 verbose afterAdd /Users/brettcelestre/.npm/flux-standard-action/0.6.1/package/package.json not in flight; writing
+192 verbose afterAdd /Users/brettcelestre/.npm/flux-standard-action/0.6.1/package/package.json written
+193 silly install resolved [ { name: 'flux-standard-action',
+193 silly install resolved     version: '0.6.1',
+193 silly install resolved     description: 'A human-friendly standard for Flux action objects',
+193 silly install resolved     main: 'lib/index.js',
+193 silly install resolved     scripts: { test: 'make test', prepublish: 'make clean build' },
+193 silly install resolved     keywords: [ 'flux', 'redux', 'actions', 'fsa' ],
+193 silly install resolved     author: { name: 'Andrew Clark', email: 'acdlite@me.com' },
+193 silly install resolved     license: 'MIT',
+193 silly install resolved     devDependencies:
+193 silly install resolved      { babel: '^5.6.14',
+193 silly install resolved        'babel-core': '^5.6.15',
+193 silly install resolved        'babel-eslint': '^4.1.8',
+193 silly install resolved        chai: '^3.0.0',
+193 silly install resolved        eslint: '^0.24.0',
+193 silly install resolved        'eslint-config-airbnb': '0.0.6',
+193 silly install resolved        mocha: '^2.2.5' },
+193 silly install resolved     dependencies: { 'lodash.isplainobject': '^3.2.0' },
+193 silly install resolved     gitHead: '96349384bcf478fcba8c92a6e2a03798fa8a5a3b',
+193 silly install resolved     _id: 'flux-standard-action@0.6.1',
+193 silly install resolved     _shasum: '6f34211b94834ea1c3cc30f4e7afad3d0fbf71a2',
+193 silly install resolved     _from: 'flux-standard-action@>=0.6.1 <0.7.0',
+193 silly install resolved     _npmVersion: '3.3.6',
+193 silly install resolved     _nodeVersion: '5.0.0',
+193 silly install resolved     _npmUser: { name: 'acdlite', email: 'acdlite@me.com' },
+193 silly install resolved     dist:
+193 silly install resolved      { shasum: '6f34211b94834ea1c3cc30f4e7afad3d0fbf71a2',
+193 silly install resolved        tarball: 'https://registry.npmjs.org/flux-standard-action/-/flux-standard-action-0.6.1.tgz' },
+193 silly install resolved     maintainers: [ [Object] ],
+193 silly install resolved     _npmOperationalInternal:
+193 silly install resolved      { host: 'packages-5-east.internal.npmjs.com',
+193 silly install resolved        tmp: 'tmp/flux-standard-action-0.6.1.tgz_1454443066301_0.11490102671086788' },
+193 silly install resolved     directories: {},
+193 silly install resolved     _resolved: 'https://registry.npmjs.org/flux-standard-action/-/flux-standard-action-0.6.1.tgz',
+193 silly install resolved     readme: 'ERROR: No README data found!' } ]
+194 info install flux-standard-action@0.6.1 into /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/redux-promise
+195 info installOne flux-standard-action@0.6.1
+196 verbose installOne of flux-standard-action to /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/redux-promise not in flight; installing
+197 verbose lock using /Users/brettcelestre/.npm/_locks/flux-standard-action-cb14e0817f943854.lock for /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/redux-promise/node_modules/flux-standard-action
+198 silly install write writing flux-standard-action 0.6.1 to /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/redux-promise/node_modules/flux-standard-action
+199 verbose unbuild node_modules/redux-promise/node_modules/flux-standard-action
+200 silly gentlyRm /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/redux-promise/node_modules/flux-standard-action is being purged from base /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts
+201 verbose gentlyRm don't care about contents; nuking /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/redux-promise/node_modules/flux-standard-action
+202 verbose tar unpack /Users/brettcelestre/.npm/flux-standard-action/0.6.1/package.tgz
+203 verbose tar unpacking to /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/redux-promise/node_modules/flux-standard-action
+204 silly gentlyRm /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/redux-promise/node_modules/flux-standard-action is being purged
+205 verbose gentlyRm don't care about contents; nuking /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/redux-promise/node_modules/flux-standard-action
+206 silly gunzTarPerm modes [ '755', '644' ]
+207 silly gunzTarPerm extractEntry package.json
+208 silly gunzTarPerm extractEntry .npmignore
+209 silly gunzTarPerm extractEntry README.md
+210 silly gunzTarPerm extractEntry lib/index.js
+211 silly gunzTarPerm extractEntry lib/__tests__/init.js
+212 silly gunzTarPerm extractEntry lib/__tests__/isError-test.js
+213 silly gunzTarPerm extractEntry lib/__tests__/isFSA-test.js
+214 verbose write writing to /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/redux-promise/node_modules/flux-standard-action/package.json
+215 verbose write writing to /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/axios/package.json
+216 info preinstall flux-standard-action@0.6.1
+217 verbose readDependencies loading dependencies from /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/redux-promise/node_modules/flux-standard-action/package.json
+218 info preinstall axios@0.16.1
+219 silly prepareForInstallMany adding lodash.isplainobject@^3.2.0 from flux-standard-action dependencies
+220 verbose readDependencies loading dependencies from /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/redux-promise/node_modules/flux-standard-action/package.json
+221 verbose readDependencies loading dependencies from /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/axios/package.json
+222 silly cache add args [ 'lodash.isplainobject@^3.2.0', null ]
+223 verbose cache add spec lodash.isplainobject@^3.2.0
+224 silly cache add parsed spec Result {
+224 silly cache add   raw: 'lodash.isplainobject@^3.2.0',
+224 silly cache add   scope: null,
+224 silly cache add   name: 'lodash.isplainobject',
+224 silly cache add   rawSpec: '^3.2.0',
+224 silly cache add   spec: '>=3.2.0 <4.0.0',
+224 silly cache add   type: 'range' }
+225 silly addNamed lodash.isplainobject@>=3.2.0 <4.0.0
+226 verbose addNamed ">=3.2.0 <4.0.0" is a valid semver range for lodash.isplainobject
+227 silly addNameRange { name: 'lodash.isplainobject',
+227 silly addNameRange   range: '>=3.2.0 <4.0.0',
+227 silly addNameRange   hasData: false }
+228 silly mapToRegistry name lodash.isplainobject
+229 silly mapToRegistry using default registry
+230 silly mapToRegistry registry https://registry.npmjs.org/
+231 silly mapToRegistry uri https://registry.npmjs.org/lodash.isplainobject
+232 verbose addNameRange registry:https://registry.npmjs.org/lodash.isplainobject not in flight; fetching
+233 silly prepareForInstallMany adding follow-redirects@^1.2.3 from axios dependencies
+234 verbose readDependencies loading dependencies from /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/axios/package.json
+235 verbose request uri https://registry.npmjs.org/lodash.isplainobject
+236 verbose request no auth needed
+237 info attempt registry request try #1 at 2:57:51 PM
+238 verbose etag W/"5803c1ba-81f9"
+239 verbose lastModified Sun, 16 Oct 2016 18:06:50 GMT
+240 http request GET https://registry.npmjs.org/lodash.isplainobject
+241 silly cache add args [ 'follow-redirects@^1.2.3', null ]
+242 verbose cache add spec follow-redirects@^1.2.3
+243 silly cache add parsed spec Result {
+243 silly cache add   raw: 'follow-redirects@^1.2.3',
+243 silly cache add   scope: null,
+243 silly cache add   name: 'follow-redirects',
+243 silly cache add   rawSpec: '^1.2.3',
+243 silly cache add   spec: '>=1.2.3 <2.0.0',
+243 silly cache add   type: 'range' }
+244 silly addNamed follow-redirects@>=1.2.3 <2.0.0
+245 verbose addNamed ">=1.2.3 <2.0.0" is a valid semver range for follow-redirects
+246 silly addNameRange { name: 'follow-redirects',
+246 silly addNameRange   range: '>=1.2.3 <2.0.0',
+246 silly addNameRange   hasData: false }
+247 silly mapToRegistry name follow-redirects
+248 silly mapToRegistry using default registry
+249 silly mapToRegistry registry https://registry.npmjs.org/
+250 silly mapToRegistry uri https://registry.npmjs.org/follow-redirects
+251 verbose addNameRange registry:https://registry.npmjs.org/follow-redirects not in flight; fetching
+252 verbose request uri https://registry.npmjs.org/follow-redirects
+253 verbose request no auth needed
+254 info attempt registry request try #1 at 2:57:51 PM
+255 verbose etag W/"58c2d98a-7e0b"
+256 verbose lastModified Fri, 10 Mar 2017 16:51:22 GMT
+257 http request GET https://registry.npmjs.org/follow-redirects
+258 http 304 https://registry.npmjs.org/lodash.isplainobject
+259 silly get cb [ 304,
+259 silly get   { date: 'Mon, 01 May 2017 21:57:51 GMT',
+259 silly get     via: '1.1 varnish',
+259 silly get     'cache-control': 'max-age=300',
+259 silly get     etag: 'W/"5803c1ba-81f9"',
+259 silly get     age: '205',
+259 silly get     connection: 'keep-alive',
+259 silly get     'x-served-by': 'cache-sjc3134-SJC',
+259 silly get     'x-cache': 'HIT',
+259 silly get     'x-cache-hits': '2',
+259 silly get     'x-timer': 'S1493675871.424758,VS0,VE0',
+259 silly get     vary: 'Accept-Encoding' } ]
+260 verbose etag https://registry.npmjs.org/lodash.isplainobject from cache
+261 verbose get saving lodash.isplainobject to /Users/brettcelestre/.npm/registry.npmjs.org/lodash.isplainobject/.cache.json
+262 silly addNameRange number 2 { name: 'lodash.isplainobject',
+262 silly addNameRange   range: '>=3.2.0 <4.0.0',
+262 silly addNameRange   hasData: true }
+263 silly addNameRange versions [ 'lodash.isplainobject',
+263 silly addNameRange   [ '2.0.0',
+263 silly addNameRange     '2.1.0',
+263 silly addNameRange     '2.2.0',
+263 silly addNameRange     '2.2.1',
+263 silly addNameRange     '2.3.0',
+263 silly addNameRange     '2.4.0',
+263 silly addNameRange     '2.4.1',
+263 silly addNameRange     '3.0.0',
+263 silly addNameRange     '3.0.1',
+263 silly addNameRange     '3.0.2',
+263 silly addNameRange     '3.1.0',
+263 silly addNameRange     '3.2.0',
+263 silly addNameRange     '4.0.0',
+263 silly addNameRange     '4.0.1',
+263 silly addNameRange     '4.0.2',
+263 silly addNameRange     '4.0.3',
+263 silly addNameRange     '4.0.4',
+263 silly addNameRange     '4.0.5',
+263 silly addNameRange     '4.0.6' ] ]
+264 silly addNamed lodash.isplainobject@3.2.0
+265 verbose addNamed "3.2.0" is a plain semver version for lodash.isplainobject
+266 http 304 https://registry.npmjs.org/follow-redirects
+267 silly get cb [ 304,
+267 silly get   { date: 'Mon, 01 May 2017 21:57:51 GMT',
+267 silly get     via: '1.1 varnish',
+267 silly get     'cache-control': 'max-age=300',
+267 silly get     etag: 'W/"58c2d98a-7e0b"',
+267 silly get     age: '70',
+267 silly get     connection: 'keep-alive',
+267 silly get     'x-served-by': 'cache-sjc3146-SJC',
+267 silly get     'x-cache': 'HIT',
+267 silly get     'x-cache-hits': '1',
+267 silly get     'x-timer': 'S1493675871.438890,VS0,VE0',
+267 silly get     vary: 'Accept-Encoding' } ]
+268 verbose etag https://registry.npmjs.org/follow-redirects from cache
+269 verbose get saving follow-redirects to /Users/brettcelestre/.npm/registry.npmjs.org/follow-redirects/.cache.json
+270 silly cache afterAdd lodash.isplainobject@3.2.0
+271 verbose afterAdd /Users/brettcelestre/.npm/lodash.isplainobject/3.2.0/package/package.json not in flight; writing
+272 silly addNameRange number 2 { name: 'follow-redirects',
+272 silly addNameRange   range: '>=1.2.3 <2.0.0',
+272 silly addNameRange   hasData: true }
+273 silly addNameRange versions [ 'follow-redirects',
+273 silly addNameRange   [ '0.0.1',
+273 silly addNameRange     '0.0.2',
+273 silly addNameRange     '0.0.3',
+273 silly addNameRange     '0.0.4',
+273 silly addNameRange     '0.0.5',
+273 silly addNameRange     '0.0.6',
+273 silly addNameRange     '0.0.7',
+273 silly addNameRange     '0.1.0',
+273 silly addNameRange     '0.2.0',
+273 silly addNameRange     '0.3.0',
+273 silly addNameRange     '1.0.0',
+273 silly addNameRange     '1.1.0',
+273 silly addNameRange     '1.2.0',
+273 silly addNameRange     '1.2.1',
+273 silly addNameRange     '1.2.2',
+273 silly addNameRange     '1.2.3' ] ]
+274 silly addNamed follow-redirects@1.2.3
+275 verbose addNamed "1.2.3" is a plain semver version for follow-redirects
+276 verbose afterAdd /Users/brettcelestre/.npm/lodash.isplainobject/3.2.0/package/package.json written
+277 silly install resolved [ { name: 'lodash.isplainobject',
+277 silly install resolved     version: '3.2.0',
+277 silly install resolved     description: 'The modern build of lodash’s `_.isPlainObject` as a module.',
+277 silly install resolved     homepage: 'https://lodash.com/',
+277 silly install resolved     icon: 'https://lodash.com/icon.svg',
+277 silly install resolved     license: 'MIT',
+277 silly install resolved     keywords: [ 'lodash', 'lodash-modularized', 'stdlib', 'util' ],
+277 silly install resolved     author:
+277 silly install resolved      { name: 'John-David Dalton',
+277 silly install resolved        email: 'john.david.dalton@gmail.com',
+277 silly install resolved        url: 'http://allyoucanleet.com/' },
+277 silly install resolved     contributors: [ [Object], [Object], [Object], [Object], [Object] ],
+277 silly install resolved     repository: { type: 'git', url: 'git+https://github.com/lodash/lodash.git' },
+277 silly install resolved     scripts: { test: 'echo "See https://travis-ci.org/lodash/lodash-cli for testing details."' },
+277 silly install resolved     dependencies:
+277 silly install resolved      { 'lodash._basefor': '^3.0.0',
+277 silly install resolved        'lodash.isarguments': '^3.0.0',
+277 silly install resolved        'lodash.keysin': '^3.0.0' },
+277 silly install resolved     bugs: { url: 'https://github.com/lodash/lodash/issues' },
+277 silly install resolved     _id: 'lodash.isplainobject@3.2.0',
+277 silly install resolved     _shasum: '9a8238ae16b200432960cd7346512d0123fbf4c5',
+277 silly install resolved     _from: 'lodash.isplainobject@>=3.2.0 <4.0.0',
+277 silly install resolved     _npmVersion: '2.12.0',
+277 silly install resolved     _nodeVersion: '0.12.5',
+277 silly install resolved     _npmUser: { name: 'jdalton', email: 'john.david.dalton@gmail.com' },
+277 silly install resolved     maintainers: [ [Object], [Object], [Object], [Object], [Object] ],
+277 silly install resolved     dist:
+277 silly install resolved      { shasum: '9a8238ae16b200432960cd7346512d0123fbf4c5',
+277 silly install resolved        tarball: 'https://registry.npmjs.org/lodash.isplainobject/-/lodash.isplainobject-3.2.0.tgz' },
+277 silly install resolved     directories: {},
+277 silly install resolved     _resolved: 'https://registry.npmjs.org/lodash.isplainobject/-/lodash.isplainobject-3.2.0.tgz',
+277 silly install resolved     readme: 'ERROR: No README data found!' } ]
+278 info install lodash.isplainobject@3.2.0 into /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/redux-promise/node_modules/flux-standard-action
+279 info installOne lodash.isplainobject@3.2.0
+280 verbose installOne of lodash.isplainobject to /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/redux-promise/node_modules/flux-standard-action not in flight; installing
+281 silly cache afterAdd follow-redirects@1.2.3
+282 verbose afterAdd /Users/brettcelestre/.npm/follow-redirects/1.2.3/package/package.json not in flight; writing
+283 verbose lock using /Users/brettcelestre/.npm/_locks/lodash-isplainobject-9fd52482eae02d31.lock for /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/redux-promise/node_modules/flux-standard-action/node_modules/lodash.isplainobject
+284 silly install write writing lodash.isplainobject 3.2.0 to /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/redux-promise/node_modules/flux-standard-action/node_modules/lodash.isplainobject
+285 verbose unbuild node_modules/redux-promise/node_modules/flux-standard-action/node_modules/lodash.isplainobject
+286 verbose afterAdd /Users/brettcelestre/.npm/follow-redirects/1.2.3/package/package.json written
+287 silly install resolved [ { name: 'follow-redirects',
+287 silly install resolved     version: '1.2.3',
+287 silly install resolved     description: 'HTTP and HTTPS modules that follow redirects.',
+287 silly install resolved     main: 'index.js',
+287 silly install resolved     scripts: { test: 'xo && BLUEBIRD_DEBUG=1 nyc mocha' },
+287 silly install resolved     repository:
+287 silly install resolved      { type: 'git',
+287 silly install resolved        url: 'git+ssh://git@github.com/olalonde/follow-redirects.git' },
+287 silly install resolved     homepage: 'https://github.com/olalonde/follow-redirects',
+287 silly install resolved     bugs: { url: 'https://github.com/olalonde/follow-redirects/issues' },
+287 silly install resolved     keywords:
+287 silly install resolved      [ 'http',
+287 silly install resolved        'https',
+287 silly install resolved        'url',
+287 silly install resolved        'redirect',
+287 silly install resolved        'client',
+287 silly install resolved        'location',
+287 silly install resolved        'utility' ],
+287 silly install resolved     author:
+287 silly install resolved      { name: 'Olivier Lalonde',
+287 silly install resolved        email: 'olalonde@gmail.com',
+287 silly install resolved        url: 'http://www.syskall.com' },
+287 silly install resolved     contributors: [ [Object], [Object] ],
+287 silly install resolved     files: [ 'index.js', 'create.js', 'http.js', 'https.js' ],
+287 silly install resolved     dependencies: { debug: '^2.4.5' },
+287 silly install resolved     devDependencies:
+287 silly install resolved      { bluebird: '^3.4.0',
+287 silly install resolved        'concat-stream': '^1.5.2',
+287 silly install resolved        coveralls: '^2.11.15',
+287 silly install resolved        express: '^4.13.0',
+287 silly install resolved        mocha: '^3.2.0',
+287 silly install resolved        nyc: '^10.0.0',
+287 silly install resolved        xo: '^0.17.1' },
+287 silly install resolved     license: 'MIT',
+287 silly install resolved     nyc: { reporter: [Object] },
+287 silly install resolved     xo: { envs: [Object] },
+287 silly install resolved     gitHead: 'ad35f4c9ab0c3fbf23c8486ba5e241d08d6b39b4',
+287 silly install resolved     _id: 'follow-redirects@1.2.3',
+287 silly install resolved     _shasum: '01abaeca85e3609837d9fcda3167a7e42fdaca21',
+287 silly install resolved     _from: 'follow-redirects@>=1.2.3 <2.0.0',
+287 silly install resolved     _npmVersion: '3.10.3',
+287 silly install resolved     _nodeVersion: '6.7.0',
+287 silly install resolved     _npmUser: { name: 'rubenverborgh', email: 'ruben.verborgh@gmail.com' },
+287 silly install resolved     dist:
+287 silly install resolved      { shasum: '01abaeca85e3609837d9fcda3167a7e42fdaca21',
+287 silly install resolved        tarball: 'https://registry.npmjs.org/follow-redirects/-/follow-redirects-1.2.3.tgz' },
+287 silly install resolved     maintainers: [ [Object], [Object], [Object] ],
+287 silly install resolved     _npmOperationalInternal:
+287 silly install resolved      { host: 'packages-18-east.internal.npmjs.com',
+287 silly install resolved        tmp: 'tmp/follow-redirects-1.2.3.tgz_1489164681760_0.5944589097052813' },
+287 silly install resolved     directories: {},
+287 silly install resolved     _resolved: 'https://registry.npmjs.org/follow-redirects/-/follow-redirects-1.2.3.tgz',
+287 silly install resolved     readme: 'ERROR: No README data found!' } ]
+288 info install follow-redirects@1.2.3 into /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/axios
+289 info installOne follow-redirects@1.2.3
+290 verbose installOne of follow-redirects to /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/axios not in flight; installing
+291 silly gentlyRm /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/redux-promise/node_modules/flux-standard-action/node_modules/lodash.isplainobject is being purged from base /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts
+292 verbose gentlyRm don't care about contents; nuking /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/redux-promise/node_modules/flux-standard-action/node_modules/lodash.isplainobject
+293 verbose tar unpack /Users/brettcelestre/.npm/lodash.isplainobject/3.2.0/package.tgz
+294 verbose tar unpacking to /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/redux-promise/node_modules/flux-standard-action/node_modules/lodash.isplainobject
+295 silly gentlyRm /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/redux-promise/node_modules/flux-standard-action/node_modules/lodash.isplainobject is being purged
+296 verbose gentlyRm don't care about contents; nuking /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/redux-promise/node_modules/flux-standard-action/node_modules/lodash.isplainobject
+297 silly gunzTarPerm modes [ '755', '644' ]
+298 verbose lock using /Users/brettcelestre/.npm/_locks/follow-redirects-2134119638a1ba31.lock for /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/axios/node_modules/follow-redirects
+299 silly install write writing follow-redirects 1.2.3 to /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/axios/node_modules/follow-redirects
+300 silly gunzTarPerm extractEntry package.json
+301 verbose unbuild node_modules/axios/node_modules/follow-redirects
+302 silly gentlyRm /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/axios/node_modules/follow-redirects is being purged from base /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts
+303 verbose gentlyRm don't care about contents; nuking /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/axios/node_modules/follow-redirects
+304 verbose tar unpack /Users/brettcelestre/.npm/follow-redirects/1.2.3/package.tgz
+305 verbose tar unpacking to /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/axios/node_modules/follow-redirects
+306 silly gentlyRm /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/axios/node_modules/follow-redirects is being purged
+307 verbose gentlyRm don't care about contents; nuking /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/axios/node_modules/follow-redirects
+308 silly gunzTarPerm extractEntry README.md
+309 silly gunzTarPerm extractEntry LICENSE
+310 silly gunzTarPerm modes [ '755', '644' ]
+311 silly gunzTarPerm extractEntry package.json
+312 silly gunzTarPerm extractEntry index.js
+313 silly gunzTarPerm extractEntry README.md
+314 silly gunzTarPerm extractEntry LICENSE
+315 silly gunzTarPerm extractEntry http.js
+316 silly gunzTarPerm extractEntry https.js
+317 silly gunzTarPerm extractEntry index.js
+318 verbose write writing to /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/redux-promise/node_modules/flux-standard-action/node_modules/lodash.isplainobject/package.json
+319 info preinstall lodash.isplainobject@3.2.0
+320 verbose readDependencies loading dependencies from /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/redux-promise/node_modules/flux-standard-action/node_modules/lodash.isplainobject/package.json
+321 silly prepareForInstallMany adding lodash._basefor@^3.0.0 from lodash.isplainobject dependencies
+322 silly prepareForInstallMany adding lodash.isarguments@^3.0.0 from lodash.isplainobject dependencies
+323 silly prepareForInstallMany adding lodash.keysin@^3.0.0 from lodash.isplainobject dependencies
+324 verbose readDependencies loading dependencies from /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/redux-promise/node_modules/flux-standard-action/node_modules/lodash.isplainobject/package.json
+325 silly cache add args [ 'lodash._basefor@^3.0.0', null ]
+326 verbose cache add spec lodash._basefor@^3.0.0
+327 silly cache add args [ 'lodash.isarguments@^3.0.0', null ]
+328 verbose cache add spec lodash.isarguments@^3.0.0
+329 silly cache add parsed spec Result {
+329 silly cache add   raw: 'lodash._basefor@^3.0.0',
+329 silly cache add   scope: null,
+329 silly cache add   name: 'lodash._basefor',
+329 silly cache add   rawSpec: '^3.0.0',
+329 silly cache add   spec: '>=3.0.0 <4.0.0',
+329 silly cache add   type: 'range' }
+330 silly addNamed lodash._basefor@>=3.0.0 <4.0.0
+331 verbose addNamed ">=3.0.0 <4.0.0" is a valid semver range for lodash._basefor
+332 silly addNameRange { name: 'lodash._basefor',
+332 silly addNameRange   range: '>=3.0.0 <4.0.0',
+332 silly addNameRange   hasData: false }
+333 silly mapToRegistry name lodash._basefor
+334 silly mapToRegistry using default registry
+335 silly mapToRegistry registry https://registry.npmjs.org/
+336 silly mapToRegistry uri https://registry.npmjs.org/lodash._basefor
+337 verbose addNameRange registry:https://registry.npmjs.org/lodash._basefor not in flight; fetching
+338 silly cache add parsed spec Result {
+338 silly cache add   raw: 'lodash.isarguments@^3.0.0',
+338 silly cache add   scope: null,
+338 silly cache add   name: 'lodash.isarguments',
+338 silly cache add   rawSpec: '^3.0.0',
+338 silly cache add   spec: '>=3.0.0 <4.0.0',
+338 silly cache add   type: 'range' }
+339 silly addNamed lodash.isarguments@>=3.0.0 <4.0.0
+340 verbose addNamed ">=3.0.0 <4.0.0" is a valid semver range for lodash.isarguments
+341 silly addNameRange { name: 'lodash.isarguments',
+341 silly addNameRange   range: '>=3.0.0 <4.0.0',
+341 silly addNameRange   hasData: false }
+342 silly mapToRegistry name lodash.isarguments
+343 silly mapToRegistry using default registry
+344 silly mapToRegistry registry https://registry.npmjs.org/
+345 silly mapToRegistry uri https://registry.npmjs.org/lodash.isarguments
+346 verbose addNameRange registry:https://registry.npmjs.org/lodash.isarguments not in flight; fetching
+347 silly cache add args [ 'lodash.keysin@^3.0.0', null ]
+348 verbose cache add spec lodash.keysin@^3.0.0
+349 silly cache add parsed spec Result {
+349 silly cache add   raw: 'lodash.keysin@^3.0.0',
+349 silly cache add   scope: null,
+349 silly cache add   name: 'lodash.keysin',
+349 silly cache add   rawSpec: '^3.0.0',
+349 silly cache add   spec: '>=3.0.0 <4.0.0',
+349 silly cache add   type: 'range' }
+350 silly addNamed lodash.keysin@>=3.0.0 <4.0.0
+351 verbose addNamed ">=3.0.0 <4.0.0" is a valid semver range for lodash.keysin
+352 silly addNameRange { name: 'lodash.keysin',
+352 silly addNameRange   range: '>=3.0.0 <4.0.0',
+352 silly addNameRange   hasData: false }
+353 silly mapToRegistry name lodash.keysin
+354 silly mapToRegistry using default registry
+355 silly mapToRegistry registry https://registry.npmjs.org/
+356 silly mapToRegistry uri https://registry.npmjs.org/lodash.keysin
+357 verbose addNameRange registry:https://registry.npmjs.org/lodash.keysin not in flight; fetching
+358 verbose request uri https://registry.npmjs.org/lodash._basefor
+359 verbose request no auth needed
+360 info attempt registry request try #1 at 2:57:51 PM
+361 verbose etag W/"57f68544-1e76"
+362 verbose lastModified Thu, 06 Oct 2016 17:09:24 GMT
+363 http request GET https://registry.npmjs.org/lodash._basefor
+364 verbose request uri https://registry.npmjs.org/lodash.isarguments
+365 verbose request no auth needed
+366 info attempt registry request try #1 at 2:57:51 PM
+367 verbose etag W/"57f6802f-7680"
+368 verbose lastModified Thu, 06 Oct 2016 16:47:43 GMT
+369 http request GET https://registry.npmjs.org/lodash.isarguments
+370 verbose request uri https://registry.npmjs.org/lodash.keysin
+371 verbose request no auth needed
+372 info attempt registry request try #1 at 2:57:51 PM
+373 verbose etag W/"57f68078-824f"
+374 verbose lastModified Thu, 06 Oct 2016 16:48:56 GMT
+375 http request GET https://registry.npmjs.org/lodash.keysin
+376 verbose write writing to /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/axios/node_modules/follow-redirects/package.json
+377 info preinstall follow-redirects@1.2.3
+378 verbose readDependencies loading dependencies from /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/axios/node_modules/follow-redirects/package.json
+379 silly prepareForInstallMany adding debug@^2.4.5 from follow-redirects dependencies
+380 verbose readDependencies loading dependencies from /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/axios/node_modules/follow-redirects/package.json
+381 silly cache add args [ 'debug@^2.4.5', null ]
+382 verbose cache add spec debug@^2.4.5
+383 silly cache add parsed spec Result {
+383 silly cache add   raw: 'debug@^2.4.5',
+383 silly cache add   scope: null,
+383 silly cache add   name: 'debug',
+383 silly cache add   rawSpec: '^2.4.5',
+383 silly cache add   spec: '>=2.4.5 <3.0.0',
+383 silly cache add   type: 'range' }
+384 silly addNamed debug@>=2.4.5 <3.0.0
+385 verbose addNamed ">=2.4.5 <3.0.0" is a valid semver range for debug
+386 silly addNameRange { name: 'debug', range: '>=2.4.5 <3.0.0', hasData: false }
+387 silly mapToRegistry name debug
+388 silly mapToRegistry using default registry
+389 silly mapToRegistry registry https://registry.npmjs.org/
+390 silly mapToRegistry uri https://registry.npmjs.org/debug
+391 verbose addNameRange registry:https://registry.npmjs.org/debug not in flight; fetching
+392 verbose request uri https://registry.npmjs.org/debug
+393 verbose request no auth needed
+394 info attempt registry request try #1 at 2:57:51 PM
+395 verbose etag W/"59069374-14fa7"
+396 verbose lastModified Mon, 01 May 2017 01:46:28 GMT
+397 http request GET https://registry.npmjs.org/debug
+398 http 304 https://registry.npmjs.org/lodash._basefor
+399 silly get cb [ 304,
+399 silly get   { date: 'Mon, 01 May 2017 21:57:51 GMT',
+399 silly get     via: '1.1 varnish',
+399 silly get     'cache-control': 'max-age=300',
+399 silly get     etag: 'W/"57f68544-1e76"',
+399 silly get     age: '51',
+399 silly get     connection: 'keep-alive',
+399 silly get     'x-served-by': 'cache-sjc3134-SJC',
+399 silly get     'x-cache': 'HIT',
+399 silly get     'x-cache-hits': '1',
+399 silly get     'x-timer': 'S1493675872.524769,VS0,VE0',
+399 silly get     vary: 'Accept-Encoding' } ]
+400 verbose etag https://registry.npmjs.org/lodash._basefor from cache
+401 verbose get saving lodash._basefor to /Users/brettcelestre/.npm/registry.npmjs.org/lodash._basefor/.cache.json
+402 http 304 https://registry.npmjs.org/lodash.isarguments
+403 silly get cb [ 304,
+403 silly get   { date: 'Mon, 01 May 2017 21:57:51 GMT',
+403 silly get     via: '1.1 varnish',
+403 silly get     'cache-control': 'max-age=300',
+403 silly get     etag: 'W/"57f6802f-7680"',
+403 silly get     age: '104',
+403 silly get     connection: 'keep-alive',
+403 silly get     'x-served-by': 'cache-sjc3146-SJC',
+403 silly get     'x-cache': 'HIT',
+403 silly get     'x-cache-hits': '2',
+403 silly get     'x-timer': 'S1493675872.527367,VS0,VE0',
+403 silly get     vary: 'Accept-Encoding' } ]
+404 verbose etag https://registry.npmjs.org/lodash.isarguments from cache
+405 verbose get saving lodash.isarguments to /Users/brettcelestre/.npm/registry.npmjs.org/lodash.isarguments/.cache.json
+406 silly addNameRange number 2 { name: 'lodash.isarguments',
+406 silly addNameRange   range: '>=3.0.0 <4.0.0',
+406 silly addNameRange   hasData: true }
+407 silly addNameRange versions [ 'lodash.isarguments',
+407 silly addNameRange   [ '2.0.0',
+407 silly addNameRange     '2.1.0',
+407 silly addNameRange     '2.2.0',
+407 silly addNameRange     '2.2.1',
+407 silly addNameRange     '2.3.0',
+407 silly addNameRange     '2.4.0',
+407 silly addNameRange     '2.4.1',
+407 silly addNameRange     '3.0.0',
+407 silly addNameRange     '3.0.1',
+407 silly addNameRange     '3.0.2',
+407 silly addNameRange     '3.0.3',
+407 silly addNameRange     '3.0.4',
+407 silly addNameRange     '3.0.5',
+407 silly addNameRange     '3.0.6',
+407 silly addNameRange     '3.0.7',
+407 silly addNameRange     '3.0.8',
+407 silly addNameRange     '3.0.9',
+407 silly addNameRange     '3.1.0' ] ]
+408 silly addNamed lodash.isarguments@3.1.0
+409 verbose addNamed "3.1.0" is a plain semver version for lodash.isarguments
+410 silly addNameRange number 2 { name: 'lodash._basefor',
+410 silly addNameRange   range: '>=3.0.0 <4.0.0',
+410 silly addNameRange   hasData: true }
+411 silly addNameRange versions [ 'lodash._basefor', [ '3.0.0', '3.0.1', '3.0.2', '3.0.3' ] ]
+412 silly addNamed lodash._basefor@3.0.3
+413 verbose addNamed "3.0.3" is a plain semver version for lodash._basefor
+414 silly cache afterAdd lodash.isarguments@3.1.0
+415 verbose afterAdd /Users/brettcelestre/.npm/lodash.isarguments/3.1.0/package/package.json not in flight; writing
+416 silly cache afterAdd lodash._basefor@3.0.3
+417 verbose afterAdd /Users/brettcelestre/.npm/lodash._basefor/3.0.3/package/package.json not in flight; writing
+418 verbose afterAdd /Users/brettcelestre/.npm/lodash.isarguments/3.1.0/package/package.json written
+419 verbose afterAdd /Users/brettcelestre/.npm/lodash._basefor/3.0.3/package/package.json written
+420 http 304 https://registry.npmjs.org/lodash.keysin
+421 silly get cb [ 304,
+421 silly get   { date: 'Mon, 01 May 2017 21:57:51 GMT',
+421 silly get     via: '1.1 varnish',
+421 silly get     'cache-control': 'max-age=300',
+421 silly get     etag: 'W/"57f68078-824f"',
+421 silly get     age: '269',
+421 silly get     connection: 'keep-alive',
+421 silly get     'x-served-by': 'cache-sjc3126-SJC',
+421 silly get     'x-cache': 'HIT',
+421 silly get     'x-cache-hits': '2',
+421 silly get     'x-timer': 'S1493675872.590509,VS0,VE0',
+421 silly get     vary: 'Accept-Encoding' } ]
+422 verbose etag https://registry.npmjs.org/lodash.keysin from cache
+423 verbose get saving lodash.keysin to /Users/brettcelestre/.npm/registry.npmjs.org/lodash.keysin/.cache.json
+424 silly addNameRange number 2 { name: 'lodash.keysin', range: '>=3.0.0 <4.0.0', hasData: true }
+425 silly addNameRange versions [ 'lodash.keysin',
+425 silly addNameRange   [ '3.0.0',
+425 silly addNameRange     '3.0.1',
+425 silly addNameRange     '3.0.2',
+425 silly addNameRange     '3.0.3',
+425 silly addNameRange     '3.0.4',
+425 silly addNameRange     '3.0.5',
+425 silly addNameRange     '3.0.6',
+425 silly addNameRange     '3.0.7',
+425 silly addNameRange     '3.0.8',
+425 silly addNameRange     '4.0.0',
+425 silly addNameRange     '4.0.1',
+425 silly addNameRange     '4.0.2',
+425 silly addNameRange     '4.1.0',
+425 silly addNameRange     '4.1.1',
+425 silly addNameRange     '4.1.2',
+425 silly addNameRange     '4.1.3',
+425 silly addNameRange     '4.1.4',
+425 silly addNameRange     '4.1.5',
+425 silly addNameRange     '4.2.0' ] ]
+426 silly addNamed lodash.keysin@3.0.8
+427 verbose addNamed "3.0.8" is a plain semver version for lodash.keysin
+428 silly cache afterAdd lodash.keysin@3.0.8
+429 verbose afterAdd /Users/brettcelestre/.npm/lodash.keysin/3.0.8/package/package.json not in flight; writing
+430 verbose afterAdd /Users/brettcelestre/.npm/lodash.keysin/3.0.8/package/package.json written
+431 silly install resolved [ { name: 'lodash.isarguments',
+431 silly install resolved     version: '3.1.0',
+431 silly install resolved     description: 'The lodash method `_.isArguments` exported as a module.',
+431 silly install resolved     homepage: 'https://lodash.com/',
+431 silly install resolved     icon: 'https://lodash.com/icon.svg',
+431 silly install resolved     license: 'MIT',
+431 silly install resolved     keywords: [ 'lodash-modularized', 'isarguments' ],
+431 silly install resolved     author:
+431 silly install resolved      { name: 'John-David Dalton',
+431 silly install resolved        email: 'john.david.dalton@gmail.com',
+431 silly install resolved        url: 'http://allyoucanleet.com/' },
+431 silly install resolved     contributors: [ [Object], [Object], [Object] ],
+431 silly install resolved     repository: { type: 'git', url: 'git+https://github.com/lodash/lodash.git' },
+431 silly install resolved     scripts: { test: 'echo "See https://travis-ci.org/lodash/lodash-cli for testing details."' },
+431 silly install resolved     bugs: { url: 'https://github.com/lodash/lodash/issues' },
+431 silly install resolved     _id: 'lodash.isarguments@3.1.0',
+431 silly install resolved     _shasum: '2f573d85c6a24289ff00663b491c1d338ff3458a',
+431 silly install resolved     _from: 'lodash.isarguments@>=3.0.0 <4.0.0',
+431 silly install resolved     _npmVersion: '2.15.10',
+431 silly install resolved     _nodeVersion: '4.4.7',
+431 silly install resolved     _npmUser: { name: 'jdalton', email: 'john.david.dalton@gmail.com' },
+431 silly install resolved     dist:
+431 silly install resolved      { shasum: '2f573d85c6a24289ff00663b491c1d338ff3458a',
+431 silly install resolved        tarball: 'https://registry.npmjs.org/lodash.isarguments/-/lodash.isarguments-3.1.0.tgz' },
+431 silly install resolved     maintainers: [ [Object], [Object], [Object] ],
+431 silly install resolved     _npmOperationalInternal:
+431 silly install resolved      { host: 'packages-12-west.internal.npmjs.com',
+431 silly install resolved        tmp: 'tmp/lodash.isarguments-3.1.0.tgz_1471110006733_0.7392017105594277' },
+431 silly install resolved     directories: {},
+431 silly install resolved     _resolved: 'https://registry.npmjs.org/lodash.isarguments/-/lodash.isarguments-3.1.0.tgz',
+431 silly install resolved     readme: 'ERROR: No README data found!' },
+431 silly install resolved   { name: 'lodash._basefor',
+431 silly install resolved     version: '3.0.3',
+431 silly install resolved     description: 'The internal lodash function `baseFor` exported as a module.',
+431 silly install resolved     homepage: 'https://lodash.com/',
+431 silly install resolved     icon: 'https://lodash.com/icon.svg',
+431 silly install resolved     license: 'MIT',
+431 silly install resolved     author:
+431 silly install resolved      { name: 'John-David Dalton',
+431 silly install resolved        email: 'john.david.dalton@gmail.com',
+431 silly install resolved        url: 'http://allyoucanleet.com/' },
+431 silly install resolved     contributors: [ [Object], [Object], [Object] ],
+431 silly install resolved     repository: { type: 'git', url: 'git+https://github.com/lodash/lodash.git' },
+431 silly install resolved     scripts: { test: 'echo "See https://travis-ci.org/lodash/lodash-cli for testing details."' },
+431 silly install resolved     bugs: { url: 'https://github.com/lodash/lodash/issues' },
+431 silly install resolved     _id: 'lodash._basefor@3.0.3',
+431 silly install resolved     _shasum: '7550b4e9218ef09fad24343b612021c79b4c20c2',
+431 silly install resolved     _from: 'lodash._basefor@>=3.0.0 <4.0.0',
+431 silly install resolved     _npmVersion: '2.14.15',
+431 silly install resolved     _nodeVersion: '5.4.0',
+431 silly install resolved     _npmUser: { name: 'jdalton', email: 'john.david.dalton@gmail.com' },
+431 silly install resolved     dist:
+431 silly install resolved      { shasum: '7550b4e9218ef09fad24343b612021c79b4c20c2',
+431 silly install resolved        tarball: 'https://registry.npmjs.org/lodash._basefor/-/lodash._basefor-3.0.3.tgz' },
+431 silly install resolved     maintainers: [ [Object], [Object], [Object] ],
+431 silly install resolved     directories: {},
+431 silly install resolved     _resolved: 'https://registry.npmjs.org/lodash._basefor/-/lodash._basefor-3.0.3.tgz',
+431 silly install resolved     readme: 'ERROR: No README data found!' },
+431 silly install resolved   { name: 'lodash.keysin',
+431 silly install resolved     version: '3.0.8',
+431 silly install resolved     description: 'The modern build of lodash’s `_.keysIn` as a module.',
+431 silly install resolved     homepage: 'https://lodash.com/',
+431 silly install resolved     icon: 'https://lodash.com/icon.svg',
+431 silly install resolved     license: 'MIT',
+431 silly install resolved     keywords: [ 'lodash', 'lodash-modularized', 'stdlib', 'util' ],
+431 silly install resolved     author:
+431 silly install resolved      { name: 'John-David Dalton',
+431 silly install resolved        email: 'john.david.dalton@gmail.com',
+431 silly install resolved        url: 'http://allyoucanleet.com/' },
+431 silly install resolved     contributors: [ [Object], [Object], [Object], [Object], [Object] ],
+431 silly install resolved     repository: { type: 'git', url: 'git+https://github.com/lodash/lodash.git' },
+431 silly install resolved     scripts: { test: 'echo "See https://travis-ci.org/lodash/lodash-cli for testing details."' },
+431 silly install resolved     dependencies: { 'lodash.isarguments': '^3.0.0', 'lodash.isarray': '^3.0.0' },
+431 silly install resolved     bugs: { url: 'https://github.com/lodash/lodash/issues' },
+431 silly install resolved     _id: 'lodash.keysin@3.0.8',
+431 silly install resolved     _shasum: '22c4493ebbedb1427962a54b445b2c8a767fb47f',
+431 silly install resolved     _from: 'lodash.keysin@>=3.0.0 <4.0.0',
+431 silly install resolved     _npmVersion: '2.10.1',
+431 silly install resolved     _nodeVersion: '2.0.2',
+431 silly install resolved     _npmUser: { name: 'jdalton', email: 'john.david.dalton@gmail.com' },
+431 silly install resolved     maintainers: [ [Object], [Object], [Object], [Object], [Object] ],
+431 silly install resolved     dist:
+431 silly install resolved      { shasum: '22c4493ebbedb1427962a54b445b2c8a767fb47f',
+431 silly install resolved        tarball: 'https://registry.npmjs.org/lodash.keysin/-/lodash.keysin-3.0.8.tgz' },
+431 silly install resolved     directories: {},
+431 silly install resolved     _resolved: 'https://registry.npmjs.org/lodash.keysin/-/lodash.keysin-3.0.8.tgz',
+431 silly install resolved     readme: 'ERROR: No README data found!' } ]
+432 info install lodash.isarguments@3.1.0 into /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/redux-promise/node_modules/flux-standard-action/node_modules/lodash.isplainobject
+433 info install lodash._basefor@3.0.3 into /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/redux-promise/node_modules/flux-standard-action/node_modules/lodash.isplainobject
+434 info install lodash.keysin@3.0.8 into /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/redux-promise/node_modules/flux-standard-action/node_modules/lodash.isplainobject
+435 info installOne lodash.isarguments@3.1.0
+436 verbose installOne of lodash.isarguments to /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/redux-promise/node_modules/flux-standard-action/node_modules/lodash.isplainobject not in flight; installing
+437 info installOne lodash._basefor@3.0.3
+438 verbose installOne of lodash._basefor to /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/redux-promise/node_modules/flux-standard-action/node_modules/lodash.isplainobject not in flight; installing
+439 info installOne lodash.keysin@3.0.8
+440 verbose installOne of lodash.keysin to /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/redux-promise/node_modules/flux-standard-action/node_modules/lodash.isplainobject not in flight; installing
+441 verbose lock using /Users/brettcelestre/.npm/_locks/lodash-isarguments-3a140bd507dc26d9.lock for /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/redux-promise/node_modules/flux-standard-action/node_modules/lodash.isplainobject/node_modules/lodash.isarguments
+442 verbose lock using /Users/brettcelestre/.npm/_locks/lodash-basefor-4c12784f57af173f.lock for /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/redux-promise/node_modules/flux-standard-action/node_modules/lodash.isplainobject/node_modules/lodash._basefor
+443 silly install write writing lodash.isarguments 3.1.0 to /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/redux-promise/node_modules/flux-standard-action/node_modules/lodash.isplainobject/node_modules/lodash.isarguments
+444 silly install write writing lodash._basefor 3.0.3 to /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/redux-promise/node_modules/flux-standard-action/node_modules/lodash.isplainobject/node_modules/lodash._basefor
+445 verbose lock using /Users/brettcelestre/.npm/_locks/lodash-keysin-3e15047e854931d3.lock for /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/redux-promise/node_modules/flux-standard-action/node_modules/lodash.isplainobject/node_modules/lodash.keysin
+446 silly install write writing lodash.keysin 3.0.8 to /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/redux-promise/node_modules/flux-standard-action/node_modules/lodash.isplainobject/node_modules/lodash.keysin
+447 verbose unbuild node_modules/redux-promise/node_modules/flux-standard-action/node_modules/lodash.isplainobject/node_modules/lodash.isarguments
+448 verbose unbuild node_modules/redux-promise/node_modules/flux-standard-action/node_modules/lodash.isplainobject/node_modules/lodash._basefor
+449 verbose unbuild node_modules/redux-promise/node_modules/flux-standard-action/node_modules/lodash.isplainobject/node_modules/lodash.keysin
+450 silly gentlyRm /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/redux-promise/node_modules/flux-standard-action/node_modules/lodash.isplainobject/node_modules/lodash.isarguments is being purged from base /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts
+451 verbose gentlyRm don't care about contents; nuking /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/redux-promise/node_modules/flux-standard-action/node_modules/lodash.isplainobject/node_modules/lodash.isarguments
+452 silly gentlyRm /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/redux-promise/node_modules/flux-standard-action/node_modules/lodash.isplainobject/node_modules/lodash._basefor is being purged from base /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts
+453 verbose gentlyRm don't care about contents; nuking /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/redux-promise/node_modules/flux-standard-action/node_modules/lodash.isplainobject/node_modules/lodash._basefor
+454 verbose tar unpack /Users/brettcelestre/.npm/lodash.isarguments/3.1.0/package.tgz
+455 verbose tar unpacking to /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/redux-promise/node_modules/flux-standard-action/node_modules/lodash.isplainobject/node_modules/lodash.isarguments
+456 silly gentlyRm /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/redux-promise/node_modules/flux-standard-action/node_modules/lodash.isplainobject/node_modules/lodash.isarguments is being purged
+457 verbose gentlyRm don't care about contents; nuking /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/redux-promise/node_modules/flux-standard-action/node_modules/lodash.isplainobject/node_modules/lodash.isarguments
+458 verbose tar unpack /Users/brettcelestre/.npm/lodash._basefor/3.0.3/package.tgz
+459 verbose tar unpacking to /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/redux-promise/node_modules/flux-standard-action/node_modules/lodash.isplainobject/node_modules/lodash._basefor
+460 silly gentlyRm /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/redux-promise/node_modules/flux-standard-action/node_modules/lodash.isplainobject/node_modules/lodash._basefor is being purged
+461 verbose gentlyRm don't care about contents; nuking /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/redux-promise/node_modules/flux-standard-action/node_modules/lodash.isplainobject/node_modules/lodash._basefor
+462 silly gentlyRm /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/redux-promise/node_modules/flux-standard-action/node_modules/lodash.isplainobject/node_modules/lodash.keysin is being purged from base /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts
+463 verbose gentlyRm don't care about contents; nuking /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/redux-promise/node_modules/flux-standard-action/node_modules/lodash.isplainobject/node_modules/lodash.keysin
+464 silly gunzTarPerm modes [ '755', '644' ]
+465 silly gunzTarPerm modes [ '755', '644' ]
+466 verbose tar unpack /Users/brettcelestre/.npm/lodash.keysin/3.0.8/package.tgz
+467 verbose tar unpacking to /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/redux-promise/node_modules/flux-standard-action/node_modules/lodash.isplainobject/node_modules/lodash.keysin
+468 silly gentlyRm /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/redux-promise/node_modules/flux-standard-action/node_modules/lodash.isplainobject/node_modules/lodash.keysin is being purged
+469 verbose gentlyRm don't care about contents; nuking /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/redux-promise/node_modules/flux-standard-action/node_modules/lodash.isplainobject/node_modules/lodash.keysin
+470 silly gunzTarPerm modes [ '755', '644' ]
+471 silly gunzTarPerm extractEntry package.json
+472 silly gunzTarPerm extractEntry package.json
+473 http 304 https://registry.npmjs.org/debug
+474 silly get cb [ 304,
+474 silly get   { date: 'Mon, 01 May 2017 21:57:51 GMT',
+474 silly get     via: '1.1 varnish',
+474 silly get     'cache-control': 'max-age=300',
+474 silly get     etag: 'W/"59069374-14fa7"',
+474 silly get     age: '23',
+474 silly get     connection: 'keep-alive',
+474 silly get     'x-served-by': 'cache-sjc3126-SJC',
+474 silly get     'x-cache': 'HIT',
+474 silly get     'x-cache-hits': '2',
+474 silly get     'x-timer': 'S1493675872.618652,VS0,VE0',
+474 silly get     vary: 'Accept-Encoding' } ]
+475 verbose etag https://registry.npmjs.org/debug from cache
+476 verbose get saving debug to /Users/brettcelestre/.npm/registry.npmjs.org/debug/.cache.json
+477 silly gunzTarPerm extractEntry package.json
+478 silly gunzTarPerm extractEntry README.md
+479 silly gunzTarPerm extractEntry LICENSE
+480 silly gunzTarPerm extractEntry README.md
+481 silly gunzTarPerm extractEntry LICENSE
+482 silly gunzTarPerm extractEntry README.md
+483 silly gunzTarPerm extractEntry index.js
+484 silly addNameRange number 2 { name: 'debug', range: '>=2.4.5 <3.0.0', hasData: true }
+485 silly addNameRange versions [ 'debug',
+485 silly addNameRange   [ '0.0.1',
+485 silly addNameRange     '0.1.0',
+485 silly addNameRange     '0.2.0',
+485 silly addNameRange     '0.3.0',
+485 silly addNameRange     '0.4.0',
+485 silly addNameRange     '0.4.1',
+485 silly addNameRange     '0.5.0',
+485 silly addNameRange     '0.6.0',
+485 silly addNameRange     '0.7.0',
+485 silly addNameRange     '0.7.1',
+485 silly addNameRange     '0.7.2',
+485 silly addNameRange     '0.7.3',
+485 silly addNameRange     '0.7.4',
+485 silly addNameRange     '0.8.0',
+485 silly addNameRange     '0.8.1',
+485 silly addNameRange     '1.0.0',
+485 silly addNameRange     '1.0.1',
+485 silly addNameRange     '1.0.2',
+485 silly addNameRange     '1.0.3',
+485 silly addNameRange     '1.0.4',
+485 silly addNameRange     '2.0.0',
+485 silly addNameRange     '2.1.0',
+485 silly addNameRange     '2.1.1',
+485 silly addNameRange     '2.1.2',
+485 silly addNameRange     '2.1.3',
+485 silly addNameRange     '2.2.0',
+485 silly addNameRange     '2.3.0',
+485 silly addNameRange     '2.3.1',
+485 silly addNameRange     '2.3.2',
+485 silly addNameRange     '2.3.3',
+485 silly addNameRange     '2.4.0',
+485 silly addNameRange     '2.4.1',
+485 silly addNameRange     '2.4.2',
+485 silly addNameRange     '2.4.3',
+485 silly addNameRange     '2.4.4',
+485 silly addNameRange     '2.4.5',
+485 silly addNameRange     '2.5.0',
+485 silly addNameRange     '2.5.1',
+485 silly addNameRange     '2.5.2',
+485 silly addNameRange     '2.6.0',
+485 silly addNameRange     '2.6.1',
+485 silly addNameRange     '2.6.2',
+485 silly addNameRange     '2.6.3',
+485 silly addNameRange     '2.6.4',
+485 silly addNameRange     '2.6.5',
+485 silly addNameRange     '2.6.6' ] ]
+486 silly addNamed debug@2.6.6
+487 verbose addNamed "2.6.6" is a plain semver version for debug
+488 silly gunzTarPerm extractEntry index.js
+489 silly gunzTarPerm extractEntry index.js
+490 silly cache afterAdd debug@2.6.6
+491 verbose afterAdd /Users/brettcelestre/.npm/debug/2.6.6/package/package.json not in flight; writing
+492 silly gunzTarPerm extractEntry LICENSE.txt
+493 verbose afterAdd /Users/brettcelestre/.npm/debug/2.6.6/package/package.json written
+494 silly install resolved [ { name: 'debug',
+494 silly install resolved     version: '2.6.6',
+494 silly install resolved     repository: { type: 'git', url: 'git://github.com/visionmedia/debug.git' },
+494 silly install resolved     description: 'small debugging utility',
+494 silly install resolved     keywords: [ 'debug', 'log', 'debugger' ],
+494 silly install resolved     author: { name: 'TJ Holowaychuk', email: 'tj@vision-media.ca' },
+494 silly install resolved     contributors: [ [Object], [Object] ],
+494 silly install resolved     license: 'MIT',
+494 silly install resolved     dependencies: { ms: '0.7.3' },
+494 silly install resolved     devDependencies:
+494 silly install resolved      { browserify: '9.0.3',
+494 silly install resolved        chai: '^3.5.0',
+494 silly install resolved        concurrently: '^3.1.0',
+494 silly install resolved        coveralls: '^2.11.15',
+494 silly install resolved        eslint: '^3.12.1',
+494 silly install resolved        istanbul: '^0.4.5',
+494 silly install resolved        karma: '^1.3.0',
+494 silly install resolved        'karma-chai': '^0.1.0',
+494 silly install resolved        'karma-mocha': '^1.3.0',
+494 silly install resolved        'karma-phantomjs-launcher': '^1.0.2',
+494 silly install resolved        'karma-sinon': '^1.0.5',
+494 silly install resolved        mocha: '^3.2.0',
+494 silly install resolved        'mocha-lcov-reporter': '^1.2.0',
+494 silly install resolved        rimraf: '^2.5.4',
+494 silly install resolved        sinon: '^1.17.6',
+494 silly install resolved        'sinon-chai': '^2.8.0' },
+494 silly install resolved     main: './src/index.js',
+494 silly install resolved     browser: './src/browser.js',
+494 silly install resolved     component: { scripts: [Object] },
+494 silly install resolved     gitHead: 'c90a2b3c6c17300f3c183f0d665092c16388c7ff',
+494 silly install resolved     bugs: { url: 'https://github.com/visionmedia/debug/issues' },
+494 silly install resolved     homepage: 'https://github.com/visionmedia/debug#readme',
+494 silly install resolved     _id: 'debug@2.6.6',
+494 silly install resolved     scripts: {},
+494 silly install resolved     _shasum: 'a9fa6fbe9ca43cf1e79f73b75c0189cbb7d6db5a',
+494 silly install resolved     _from: 'debug@>=2.4.5 <3.0.0',
+494 silly install resolved     _npmVersion: '3.10.9',
+494 silly install resolved     _nodeVersion: '6.9.2',
+494 silly install resolved     _npmUser: { name: 'thebigredgeek', email: 'rhyneandrew@gmail.com' },
+494 silly install resolved     dist:
+494 silly install resolved      { shasum: 'a9fa6fbe9ca43cf1e79f73b75c0189cbb7d6db5a',
+494 silly install resolved        tarball: 'https://registry.npmjs.org/debug/-/debug-2.6.6.tgz' },
+494 silly install resolved     maintainers: [ [Object] ],
+494 silly install resolved     _npmOperationalInternal:
+494 silly install resolved      { host: 'packages-12-west.internal.npmjs.com',
+494 silly install resolved        tmp: 'tmp/debug-2.6.6.tgz_1493336101823_0.35170009173452854' },
+494 silly install resolved     directories: {},
+494 silly install resolved     _resolved: 'https://registry.npmjs.org/debug/-/debug-2.6.6.tgz',
+494 silly install resolved     readme: 'ERROR: No README data found!' } ]
+495 info install debug@2.6.6 into /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/axios/node_modules/follow-redirects
+496 info installOne debug@2.6.6
+497 verbose installOne of debug to /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/axios/node_modules/follow-redirects not in flight; installing
+498 verbose lock using /Users/brettcelestre/.npm/_locks/debug-0fc0dc485a37d6ea.lock for /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/axios/node_modules/follow-redirects/node_modules/debug
+499 silly install write writing debug 2.6.6 to /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/axios/node_modules/follow-redirects/node_modules/debug
+500 verbose unbuild node_modules/axios/node_modules/follow-redirects/node_modules/debug
+501 silly gentlyRm /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/axios/node_modules/follow-redirects/node_modules/debug is being purged from base /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts
+502 verbose gentlyRm don't care about contents; nuking /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/axios/node_modules/follow-redirects/node_modules/debug
+503 verbose tar unpack /Users/brettcelestre/.npm/debug/2.6.6/package.tgz
+504 verbose tar unpacking to /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/axios/node_modules/follow-redirects/node_modules/debug
+505 silly gentlyRm /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/axios/node_modules/follow-redirects/node_modules/debug is being purged
+506 verbose gentlyRm don't care about contents; nuking /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/axios/node_modules/follow-redirects/node_modules/debug
+507 silly gunzTarPerm modes [ '755', '644' ]
+508 silly gunzTarPerm extractEntry package.json
+509 verbose write writing to /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/redux-promise/node_modules/flux-standard-action/node_modules/lodash.isplainobject/node_modules/lodash._basefor/package.json
+510 verbose write writing to /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/redux-promise/node_modules/flux-standard-action/node_modules/lodash.isplainobject/node_modules/lodash.isarguments/package.json
+511 silly gunzTarPerm extractEntry .npmignore
+512 silly gunzTarPerm extractEntry README.md
+513 verbose write writing to /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/redux-promise/node_modules/flux-standard-action/node_modules/lodash.isplainobject/node_modules/lodash.keysin/package.json
+514 info preinstall lodash._basefor@3.0.3
+515 info preinstall lodash.isarguments@3.1.0
+516 verbose readDependencies loading dependencies from /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/redux-promise/node_modules/flux-standard-action/node_modules/lodash.isplainobject/node_modules/lodash._basefor/package.json
+517 verbose readDependencies loading dependencies from /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/redux-promise/node_modules/flux-standard-action/node_modules/lodash.isplainobject/node_modules/lodash.isarguments/package.json
+518 info preinstall lodash.keysin@3.0.8
+519 silly gunzTarPerm extractEntry LICENSE
+520 verbose readDependencies loading dependencies from /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/redux-promise/node_modules/flux-standard-action/node_modules/lodash.isplainobject/node_modules/lodash.keysin/package.json
+521 verbose readDependencies loading dependencies from /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/redux-promise/node_modules/flux-standard-action/node_modules/lodash.isplainobject/node_modules/lodash._basefor/package.json
+522 verbose readDependencies loading dependencies from /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/redux-promise/node_modules/flux-standard-action/node_modules/lodash.isplainobject/node_modules/lodash.isarguments/package.json
+523 silly prepareForInstallMany adding lodash.isarray@^3.0.0 from lodash.keysin dependencies
+524 verbose readDependencies loading dependencies from /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/redux-promise/node_modules/flux-standard-action/node_modules/lodash.isplainobject/node_modules/lodash.keysin/package.json
+525 silly install resolved []
+526 verbose about to build /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/redux-promise/node_modules/flux-standard-action/node_modules/lodash.isplainobject/node_modules/lodash._basefor
+527 info build /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/redux-promise/node_modules/flux-standard-action/node_modules/lodash.isplainobject/node_modules/lodash._basefor
+528 silly gunzTarPerm extractEntry karma.conf.js
+529 silly gunzTarPerm extractEntry node.js
+530 silly gunzTarPerm extractEntry component.json
+531 silly install resolved []
+532 verbose about to build /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/redux-promise/node_modules/flux-standard-action/node_modules/lodash.isplainobject/node_modules/lodash.isarguments
+533 info build /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/redux-promise/node_modules/flux-standard-action/node_modules/lodash.isplainobject/node_modules/lodash.isarguments
+534 silly gunzTarPerm extractEntry Makefile
+535 info linkStuff lodash._basefor@3.0.3
+536 silly linkStuff lodash._basefor@3.0.3 has /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/redux-promise/node_modules/flux-standard-action/node_modules/lodash.isplainobject/node_modules as its parent node_modules
+537 info linkStuff lodash.isarguments@3.1.0
+538 silly linkStuff lodash.isarguments@3.1.0 has /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/redux-promise/node_modules/flux-standard-action/node_modules/lodash.isplainobject/node_modules as its parent node_modules
+539 silly cache add args [ 'lodash.isarray@^3.0.0', null ]
+540 verbose cache add spec lodash.isarray@^3.0.0
+541 silly cache add parsed spec Result {
+541 silly cache add   raw: 'lodash.isarray@^3.0.0',
+541 silly cache add   scope: null,
+541 silly cache add   name: 'lodash.isarray',
+541 silly cache add   rawSpec: '^3.0.0',
+541 silly cache add   spec: '>=3.0.0 <4.0.0',
+541 silly cache add   type: 'range' }
+542 silly addNamed lodash.isarray@>=3.0.0 <4.0.0
+543 verbose addNamed ">=3.0.0 <4.0.0" is a valid semver range for lodash.isarray
+544 silly addNameRange { name: 'lodash.isarray',
+544 silly addNameRange   range: '>=3.0.0 <4.0.0',
+544 silly addNameRange   hasData: false }
+545 silly mapToRegistry name lodash.isarray
+546 silly mapToRegistry using default registry
+547 silly mapToRegistry registry https://registry.npmjs.org/
+548 silly mapToRegistry uri https://registry.npmjs.org/lodash.isarray
+549 verbose addNameRange registry:https://registry.npmjs.org/lodash.isarray not in flight; fetching
+550 silly gunzTarPerm extractEntry .coveralls.yml
+551 silly gunzTarPerm extractEntry .eslintrc
+552 verbose request uri https://registry.npmjs.org/lodash.isarray
+553 verbose request no auth needed
+554 info attempt registry request try #1 at 2:57:51 PM
+555 verbose etag W/"57f68031-5735"
+556 verbose lastModified Thu, 06 Oct 2016 16:47:45 GMT
+557 http request GET https://registry.npmjs.org/lodash.isarray
+558 verbose linkBins lodash._basefor@3.0.3
+559 verbose linkMans lodash._basefor@3.0.3
+560 verbose rebuildBundles lodash._basefor@3.0.3
+561 info install lodash._basefor@3.0.3
+562 verbose linkBins lodash.isarguments@3.1.0
+563 verbose linkMans lodash.isarguments@3.1.0
+564 verbose rebuildBundles lodash.isarguments@3.1.0
+565 info install lodash.isarguments@3.1.0
+566 info postinstall lodash._basefor@3.0.3
+567 silly gunzTarPerm extractEntry .travis.yml
+568 silly gunzTarPerm extractEntry CHANGELOG.md
+569 info postinstall lodash.isarguments@3.1.0
+570 verbose unlock done using /Users/brettcelestre/.npm/_locks/lodash-basefor-4c12784f57af173f.lock for /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/redux-promise/node_modules/flux-standard-action/node_modules/lodash.isplainobject/node_modules/lodash._basefor
+571 verbose unlock done using /Users/brettcelestre/.npm/_locks/lodash-isarguments-3a140bd507dc26d9.lock for /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/redux-promise/node_modules/flux-standard-action/node_modules/lodash.isplainobject/node_modules/lodash.isarguments
+572 silly gunzTarPerm extractEntry src/browser.js
+573 silly gunzTarPerm extractEntry src/debug.js
+574 silly gunzTarPerm extractEntry src/index.js
+575 silly gunzTarPerm extractEntry src/node.js
+576 verbose write writing to /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/axios/node_modules/follow-redirects/node_modules/debug/package.json
+577 http 304 https://registry.npmjs.org/lodash.isarray
+578 silly get cb [ 304,
+578 silly get   { date: 'Mon, 01 May 2017 21:57:51 GMT',
+578 silly get     via: '1.1 varnish',
+578 silly get     'cache-control': 'max-age=300',
+578 silly get     etag: 'W/"57f68031-5735"',
+578 silly get     age: '85',
+578 silly get     connection: 'keep-alive',
+578 silly get     'x-served-by': 'cache-sjc3134-SJC',
+578 silly get     'x-cache': 'HIT',
+578 silly get     'x-cache-hits': '2',
+578 silly get     'x-timer': 'S1493675872.700990,VS0,VE0',
+578 silly get     vary: 'Accept-Encoding' } ]
+579 verbose etag https://registry.npmjs.org/lodash.isarray from cache
+580 verbose get saving lodash.isarray to /Users/brettcelestre/.npm/registry.npmjs.org/lodash.isarray/.cache.json
+581 info preinstall debug@2.6.6
+582 verbose readDependencies loading dependencies from /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/axios/node_modules/follow-redirects/node_modules/debug/package.json
+583 silly addNameRange number 2 { name: 'lodash.isarray',
+583 silly addNameRange   range: '>=3.0.0 <4.0.0',
+583 silly addNameRange   hasData: true }
+584 silly addNameRange versions [ 'lodash.isarray',
+584 silly addNameRange   [ '2.0.0',
+584 silly addNameRange     '2.1.0',
+584 silly addNameRange     '2.2.0',
+584 silly addNameRange     '2.2.1',
+584 silly addNameRange     '2.3.0',
+584 silly addNameRange     '2.4.0',
+584 silly addNameRange     '2.4.1',
+584 silly addNameRange     '3.0.0',
+584 silly addNameRange     '3.0.1',
+584 silly addNameRange     '3.0.2',
+584 silly addNameRange     '3.0.3',
+584 silly addNameRange     '3.0.4',
+584 silly addNameRange     '4.0.0' ] ]
+585 silly addNamed lodash.isarray@3.0.4
+586 verbose addNamed "3.0.4" is a plain semver version for lodash.isarray
+587 silly prepareForInstallMany adding ms@0.7.3 from debug dependencies
+588 verbose readDependencies loading dependencies from /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/axios/node_modules/follow-redirects/node_modules/debug/package.json
+589 silly cache afterAdd lodash.isarray@3.0.4
+590 verbose afterAdd /Users/brettcelestre/.npm/lodash.isarray/3.0.4/package/package.json not in flight; writing
+591 silly cache add args [ 'ms@0.7.3', null ]
+592 verbose cache add spec ms@0.7.3
+593 silly cache add parsed spec Result {
+593 silly cache add   raw: 'ms@0.7.3',
+593 silly cache add   scope: null,
+593 silly cache add   name: 'ms',
+593 silly cache add   rawSpec: '0.7.3',
+593 silly cache add   spec: '0.7.3',
+593 silly cache add   type: 'version' }
+594 silly addNamed ms@0.7.3
+595 verbose addNamed "0.7.3" is a plain semver version for ms
+596 silly mapToRegistry name ms
+597 silly mapToRegistry using default registry
+598 silly mapToRegistry registry https://registry.npmjs.org/
+599 silly mapToRegistry uri https://registry.npmjs.org/ms
+600 verbose addNameVersion registry:https://registry.npmjs.org/ms not in flight; fetching
+601 verbose afterAdd /Users/brettcelestre/.npm/lodash.isarray/3.0.4/package/package.json written
+602 silly install resolved [ { name: 'lodash.isarray',
+602 silly install resolved     version: '3.0.4',
+602 silly install resolved     description: 'The modern build of lodash’s `_.isArray` as a module.',
+602 silly install resolved     homepage: 'https://lodash.com/',
+602 silly install resolved     icon: 'https://lodash.com/icon.svg',
+602 silly install resolved     license: 'MIT',
+602 silly install resolved     keywords: [ 'lodash', 'lodash-modularized', 'stdlib', 'util' ],
+602 silly install resolved     author:
+602 silly install resolved      { name: 'John-David Dalton',
+602 silly install resolved        email: 'john.david.dalton@gmail.com',
+602 silly install resolved        url: 'http://allyoucanleet.com/' },
+602 silly install resolved     contributors: [ [Object], [Object], [Object], [Object], [Object] ],
+602 silly install resolved     repository: { type: 'git', url: 'git+https://github.com/lodash/lodash.git' },
+602 silly install resolved     scripts: { test: 'echo "See https://travis-ci.org/lodash/lodash-cli for testing details."' },
+602 silly install resolved     bugs: { url: 'https://github.com/lodash/lodash/issues' },
+602 silly install resolved     _id: 'lodash.isarray@3.0.4',
+602 silly install resolved     _shasum: '79e4eb88c36a8122af86f844aa9bcd851b5fbb55',
+602 silly install resolved     _from: 'lodash.isarray@>=3.0.0 <4.0.0',
+602 silly install resolved     _npmVersion: '2.12.0',
+602 silly install resolved     _nodeVersion: '0.12.5',
+602 silly install resolved     _npmUser: { name: 'jdalton', email: 'john.david.dalton@gmail.com' },
+602 silly install resolved     maintainers: [ [Object], [Object], [Object], [Object], [Object] ],
+602 silly install resolved     dist:
+602 silly install resolved      { shasum: '79e4eb88c36a8122af86f844aa9bcd851b5fbb55',
+602 silly install resolved        tarball: 'https://registry.npmjs.org/lodash.isarray/-/lodash.isarray-3.0.4.tgz' },
+602 silly install resolved     directories: {},
+602 silly install resolved     _resolved: 'https://registry.npmjs.org/lodash.isarray/-/lodash.isarray-3.0.4.tgz',
+602 silly install resolved     readme: 'ERROR: No README data found!' } ]
+603 info install lodash.isarray@3.0.4 into /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/redux-promise/node_modules/flux-standard-action/node_modules/lodash.isplainobject/node_modules/lodash.keysin
+604 info installOne lodash.isarray@3.0.4
+605 verbose installOne of lodash.isarray to /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/redux-promise/node_modules/flux-standard-action/node_modules/lodash.isplainobject/node_modules/lodash.keysin not in flight; installing
+606 verbose request uri https://registry.npmjs.org/ms
+607 verbose request no auth needed
+608 info attempt registry request try #1 at 2:57:51 PM
+609 verbose etag W/"58ea444d-35f7"
+610 verbose lastModified Sun, 09 Apr 2017 14:25:17 GMT
+611 http request GET https://registry.npmjs.org/ms
+612 verbose lock using /Users/brettcelestre/.npm/_locks/lodash-isarray-f847187ff1feec18.lock for /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/redux-promise/node_modules/flux-standard-action/node_modules/lodash.isplainobject/node_modules/lodash.keysin/node_modules/lodash.isarray
+613 silly install write writing lodash.isarray 3.0.4 to /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/redux-promise/node_modules/flux-standard-action/node_modules/lodash.isplainobject/node_modules/lodash.keysin/node_modules/lodash.isarray
+614 verbose unbuild node_modules/redux-promise/node_modules/flux-standard-action/node_modules/lodash.isplainobject/node_modules/lodash.keysin/node_modules/lodash.isarray
+615 silly gentlyRm /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/redux-promise/node_modules/flux-standard-action/node_modules/lodash.isplainobject/node_modules/lodash.keysin/node_modules/lodash.isarray is being purged from base /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts
+616 verbose gentlyRm don't care about contents; nuking /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/redux-promise/node_modules/flux-standard-action/node_modules/lodash.isplainobject/node_modules/lodash.keysin/node_modules/lodash.isarray
+617 verbose tar unpack /Users/brettcelestre/.npm/lodash.isarray/3.0.4/package.tgz
+618 verbose tar unpacking to /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/redux-promise/node_modules/flux-standard-action/node_modules/lodash.isplainobject/node_modules/lodash.keysin/node_modules/lodash.isarray
+619 silly gentlyRm /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/redux-promise/node_modules/flux-standard-action/node_modules/lodash.isplainobject/node_modules/lodash.keysin/node_modules/lodash.isarray is being purged
+620 verbose gentlyRm don't care about contents; nuking /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/redux-promise/node_modules/flux-standard-action/node_modules/lodash.isplainobject/node_modules/lodash.keysin/node_modules/lodash.isarray
+621 silly gunzTarPerm modes [ '755', '644' ]
+622 silly gunzTarPerm extractEntry package.json
+623 silly gunzTarPerm extractEntry README.md
+624 silly gunzTarPerm extractEntry LICENSE
+625 silly gunzTarPerm extractEntry index.js
+626 verbose write writing to /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/redux-promise/node_modules/flux-standard-action/node_modules/lodash.isplainobject/node_modules/lodash.keysin/node_modules/lodash.isarray/package.json
+627 info preinstall lodash.isarray@3.0.4
+628 verbose readDependencies loading dependencies from /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/redux-promise/node_modules/flux-standard-action/node_modules/lodash.isplainobject/node_modules/lodash.keysin/node_modules/lodash.isarray/package.json
+629 verbose readDependencies loading dependencies from /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/redux-promise/node_modules/flux-standard-action/node_modules/lodash.isplainobject/node_modules/lodash.keysin/node_modules/lodash.isarray/package.json
+630 silly install resolved []
+631 verbose about to build /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/redux-promise/node_modules/flux-standard-action/node_modules/lodash.isplainobject/node_modules/lodash.keysin/node_modules/lodash.isarray
+632 info build /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/redux-promise/node_modules/flux-standard-action/node_modules/lodash.isplainobject/node_modules/lodash.keysin/node_modules/lodash.isarray
+633 info linkStuff lodash.isarray@3.0.4
+634 silly linkStuff lodash.isarray@3.0.4 has /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/redux-promise/node_modules/flux-standard-action/node_modules/lodash.isplainobject/node_modules/lodash.keysin/node_modules as its parent node_modules
+635 verbose linkBins lodash.isarray@3.0.4
+636 verbose linkMans lodash.isarray@3.0.4
+637 verbose rebuildBundles lodash.isarray@3.0.4
+638 info install lodash.isarray@3.0.4
+639 info postinstall lodash.isarray@3.0.4
+640 verbose unlock done using /Users/brettcelestre/.npm/_locks/lodash-isarray-f847187ff1feec18.lock for /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/redux-promise/node_modules/flux-standard-action/node_modules/lodash.isplainobject/node_modules/lodash.keysin/node_modules/lodash.isarray
+641 verbose about to build /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/redux-promise/node_modules/flux-standard-action/node_modules/lodash.isplainobject/node_modules/lodash.keysin
+642 info build /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/redux-promise/node_modules/flux-standard-action/node_modules/lodash.isplainobject/node_modules/lodash.keysin
+643 info linkStuff lodash.keysin@3.0.8
+644 silly linkStuff lodash.keysin@3.0.8 has /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/redux-promise/node_modules/flux-standard-action/node_modules/lodash.isplainobject/node_modules as its parent node_modules
+645 verbose linkBins lodash.keysin@3.0.8
+646 verbose linkMans lodash.keysin@3.0.8
+647 verbose rebuildBundles lodash.keysin@3.0.8
+648 verbose rebuildBundles [ 'lodash.isarray' ]
+649 info install lodash.keysin@3.0.8
+650 info postinstall lodash.keysin@3.0.8
+651 verbose unlock done using /Users/brettcelestre/.npm/_locks/lodash-keysin-3e15047e854931d3.lock for /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/redux-promise/node_modules/flux-standard-action/node_modules/lodash.isplainobject/node_modules/lodash.keysin
+652 verbose about to build /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/redux-promise/node_modules/flux-standard-action/node_modules/lodash.isplainobject
+653 info build /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/redux-promise/node_modules/flux-standard-action/node_modules/lodash.isplainobject
+654 info linkStuff lodash.isplainobject@3.2.0
+655 silly linkStuff lodash.isplainobject@3.2.0 has /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/redux-promise/node_modules/flux-standard-action/node_modules as its parent node_modules
+656 verbose linkBins lodash.isplainobject@3.2.0
+657 verbose linkMans lodash.isplainobject@3.2.0
+658 verbose rebuildBundles lodash.isplainobject@3.2.0
+659 http 304 https://registry.npmjs.org/ms
+660 silly get cb [ 304,
+660 silly get   { date: 'Mon, 01 May 2017 21:57:51 GMT',
+660 silly get     via: '1.1 varnish',
+660 silly get     'cache-control': 'max-age=300',
+660 silly get     etag: 'W/"58ea444d-35f7"',
+660 silly get     age: '151',
+660 silly get     connection: 'keep-alive',
+660 silly get     'x-served-by': 'cache-sjc3146-SJC',
+660 silly get     'x-cache': 'HIT',
+660 silly get     'x-cache-hits': '6',
+660 silly get     'x-timer': 'S1493675872.754638,VS0,VE0',
+660 silly get     vary: 'Accept-Encoding' } ]
+661 verbose etag https://registry.npmjs.org/ms from cache
+662 verbose get saving ms to /Users/brettcelestre/.npm/registry.npmjs.org/ms/.cache.json
+663 verbose rebuildBundles [ 'lodash._basefor', 'lodash.isarguments', 'lodash.keysin' ]
+664 info install lodash.isplainobject@3.2.0
+665 info postinstall lodash.isplainobject@3.2.0
+666 verbose unlock done using /Users/brettcelestre/.npm/_locks/lodash-isplainobject-9fd52482eae02d31.lock for /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/redux-promise/node_modules/flux-standard-action/node_modules/lodash.isplainobject
+667 verbose about to build /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/redux-promise/node_modules/flux-standard-action
+668 info build /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/redux-promise/node_modules/flux-standard-action
+669 info linkStuff flux-standard-action@0.6.1
+670 silly linkStuff flux-standard-action@0.6.1 has /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/redux-promise/node_modules as its parent node_modules
+671 silly cache afterAdd ms@0.7.3
+672 verbose afterAdd /Users/brettcelestre/.npm/ms/0.7.3/package/package.json not in flight; writing
+673 verbose linkBins flux-standard-action@0.6.1
+674 verbose linkMans flux-standard-action@0.6.1
+675 verbose rebuildBundles flux-standard-action@0.6.1
+676 verbose rebuildBundles [ 'lodash.isplainobject' ]
+677 info install flux-standard-action@0.6.1
+678 info postinstall flux-standard-action@0.6.1
+679 verbose afterAdd /Users/brettcelestre/.npm/ms/0.7.3/package/package.json written
+680 silly install resolved [ { name: 'ms',
+680 silly install resolved     version: '0.7.3',
+680 silly install resolved     description: 'Tiny milisecond conversion utility',
+680 silly install resolved     repository: { type: 'git', url: 'git+https://github.com/zeit/ms.git' },
+680 silly install resolved     main: './index',
+680 silly install resolved     files: [ 'index.js' ],
+680 silly install resolved     scripts:
+680 silly install resolved      { test: 'xo && mocha test/index.js',
+680 silly install resolved        'test-browser': 'serve ./test' },
+680 silly install resolved     license: 'MIT',
+680 silly install resolved     devDependencies:
+680 silly install resolved      { 'expect.js': '0.3.1',
+680 silly install resolved        mocha: '3.0.2',
+680 silly install resolved        serve: '5.0.1',
+680 silly install resolved        xo: '0.17.0' },
+680 silly install resolved     component: { scripts: [Object] },
+680 silly install resolved     xo: { space: true, semicolon: false, envs: [Object], rules: [Object] },
+680 silly install resolved     gitHead: '2006a7706041443fcf1f899b5752677bd7ae01a8',
+680 silly install resolved     bugs: { url: 'https://github.com/zeit/ms/issues' },
+680 silly install resolved     homepage: 'https://github.com/zeit/ms#readme',
+680 silly install resolved     _id: 'ms@0.7.3',
+680 silly install resolved     _shasum: '708155a5e44e33f5fd0fc53e81d0d40a91be1fff',
+680 silly install resolved     _from: 'ms@0.7.3',
+680 silly install resolved     _npmVersion: '4.1.2',
+680 silly install resolved     _nodeVersion: '7.6.0',
+680 silly install resolved     _npmUser: { name: 'leo', email: 'leo@zeit.co' },
+680 silly install resolved     dist:
+680 silly install resolved      { shasum: '708155a5e44e33f5fd0fc53e81d0d40a91be1fff',
+680 silly install resolved        tarball: 'https://registry.npmjs.org/ms/-/ms-0.7.3.tgz' },
+680 silly install resolved     maintainers: [ [Object], [Object] ],
+680 silly install resolved     _npmOperationalInternal:
+680 silly install resolved      { host: 'packages-12-west.internal.npmjs.com',
+680 silly install resolved        tmp: 'tmp/ms-0.7.3.tgz_1489010366101_0.14404030703008175' },
+680 silly install resolved     directories: {},
+680 silly install resolved     _resolved: 'https://registry.npmjs.org/ms/-/ms-0.7.3.tgz',
+680 silly install resolved     readme: 'ERROR: No README data found!' } ]
+681 info install ms@0.7.3 into /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/axios/node_modules/follow-redirects/node_modules/debug
+682 info installOne ms@0.7.3
+683 verbose installOne of ms to /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/axios/node_modules/follow-redirects/node_modules/debug not in flight; installing
+684 verbose unlock done using /Users/brettcelestre/.npm/_locks/flux-standard-action-cb14e0817f943854.lock for /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/redux-promise/node_modules/flux-standard-action
+685 verbose about to build /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/redux-promise
+686 info build /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/redux-promise
+687 verbose lock using /Users/brettcelestre/.npm/_locks/ms-75e6403712215c70.lock for /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/axios/node_modules/follow-redirects/node_modules/debug/node_modules/ms
+688 silly install write writing ms 0.7.3 to /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/axios/node_modules/follow-redirects/node_modules/debug/node_modules/ms
+689 info linkStuff redux-promise@0.5.3
+690 silly linkStuff redux-promise@0.5.3 has /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules as its parent node_modules
+691 verbose unbuild node_modules/axios/node_modules/follow-redirects/node_modules/debug/node_modules/ms
+692 silly gentlyRm /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/axios/node_modules/follow-redirects/node_modules/debug/node_modules/ms is being purged from base /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts
+693 verbose gentlyRm don't care about contents; nuking /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/axios/node_modules/follow-redirects/node_modules/debug/node_modules/ms
+694 verbose tar unpack /Users/brettcelestre/.npm/ms/0.7.3/package.tgz
+695 verbose tar unpacking to /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/axios/node_modules/follow-redirects/node_modules/debug/node_modules/ms
+696 silly gentlyRm /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/axios/node_modules/follow-redirects/node_modules/debug/node_modules/ms is being purged
+697 verbose gentlyRm don't care about contents; nuking /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/axios/node_modules/follow-redirects/node_modules/debug/node_modules/ms
+698 silly gunzTarPerm modes [ '755', '644' ]
+699 verbose linkBins redux-promise@0.5.3
+700 verbose linkMans redux-promise@0.5.3
+701 verbose rebuildBundles redux-promise@0.5.3
+702 verbose rebuildBundles [ 'flux-standard-action' ]
+703 info install redux-promise@0.5.3
+704 info postinstall redux-promise@0.5.3
+705 silly gunzTarPerm extractEntry package.json
+706 verbose unlock done using /Users/brettcelestre/.npm/_locks/redux-promise-8723062198d3c7f4.lock for /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/redux-promise
+707 silly gunzTarPerm extractEntry index.js
+708 silly gunzTarPerm extractEntry license.md
+709 silly gunzTarPerm extractEntry readme.md
+710 verbose write writing to /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/axios/node_modules/follow-redirects/node_modules/debug/node_modules/ms/package.json
+711 info preinstall ms@0.7.3
+712 verbose readDependencies loading dependencies from /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/axios/node_modules/follow-redirects/node_modules/debug/node_modules/ms/package.json
+713 verbose readDependencies loading dependencies from /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/axios/node_modules/follow-redirects/node_modules/debug/node_modules/ms/package.json
+714 silly install resolved []
+715 verbose about to build /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/axios/node_modules/follow-redirects/node_modules/debug/node_modules/ms
+716 info build /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/axios/node_modules/follow-redirects/node_modules/debug/node_modules/ms
+717 info linkStuff ms@0.7.3
+718 silly linkStuff ms@0.7.3 has /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/axios/node_modules/follow-redirects/node_modules/debug/node_modules as its parent node_modules
+719 verbose linkBins ms@0.7.3
+720 verbose linkMans ms@0.7.3
+721 verbose rebuildBundles ms@0.7.3
+722 info install ms@0.7.3
+723 info postinstall ms@0.7.3
+724 verbose unlock done using /Users/brettcelestre/.npm/_locks/ms-75e6403712215c70.lock for /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/axios/node_modules/follow-redirects/node_modules/debug/node_modules/ms
+725 verbose about to build /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/axios/node_modules/follow-redirects/node_modules/debug
+726 info build /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/axios/node_modules/follow-redirects/node_modules/debug
+727 info linkStuff debug@2.6.6
+728 silly linkStuff debug@2.6.6 has /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/axios/node_modules/follow-redirects/node_modules as its parent node_modules
+729 verbose linkBins debug@2.6.6
+730 verbose linkMans debug@2.6.6
+731 verbose rebuildBundles debug@2.6.6
+732 verbose rebuildBundles [ 'ms' ]
+733 info install debug@2.6.6
+734 info postinstall debug@2.6.6
+735 verbose unlock done using /Users/brettcelestre/.npm/_locks/debug-0fc0dc485a37d6ea.lock for /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/axios/node_modules/follow-redirects/node_modules/debug
+736 verbose about to build /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/axios/node_modules/follow-redirects
+737 info build /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/axios/node_modules/follow-redirects
+738 info linkStuff follow-redirects@1.2.3
+739 silly linkStuff follow-redirects@1.2.3 has /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/axios/node_modules as its parent node_modules
+740 verbose linkBins follow-redirects@1.2.3
+741 verbose linkMans follow-redirects@1.2.3
+742 verbose rebuildBundles follow-redirects@1.2.3
+743 verbose rebuildBundles [ 'debug' ]
+744 info install follow-redirects@1.2.3
+745 info postinstall follow-redirects@1.2.3
+746 verbose unlock done using /Users/brettcelestre/.npm/_locks/follow-redirects-2134119638a1ba31.lock for /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/axios/node_modules/follow-redirects
+747 verbose about to build /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/axios
+748 info build /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/axios
+749 info linkStuff axios@0.16.1
+750 silly linkStuff axios@0.16.1 has /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules as its parent node_modules
+751 verbose linkBins axios@0.16.1
+752 verbose linkMans axios@0.16.1
+753 verbose rebuildBundles axios@0.16.1
+754 verbose rebuildBundles [ 'follow-redirects' ]
+755 info install axios@0.16.1
+756 info postinstall axios@0.16.1
+757 verbose unlock done using /Users/brettcelestre/.npm/_locks/axios-de9e51c115a1f238.lock for /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/node_modules/axios
+758 verbose validateInstall loading /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts/package.json for validation
+759 verbose stack Error: The package react does not satisfy its siblings' peerDependencies requirements!
+759 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:125:32
+759 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:267:7
+759 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:138:5
+759 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:251:14
+759 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+759 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:251:14
+759 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+759 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:251:14
+759 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+759 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:251:14
+760 verbose cwd /Users/brettcelestre/Documents/JavaScript/react-redux-boilerplate/react-blog-posts
+761 error Darwin 14.5.0
+762 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "--save" "axios" "redux-promise"
+763 error node v6.2.0
+764 error npm  v2.11.3
+765 error code EPEERINVALID
+766 error peerinvalid The package react does not satisfy its siblings' peerDependencies requirements!
+766 error peerinvalid Peer react-dom@0.14.9 wants react@^0.14.9
+766 error peerinvalid Peer react-redux@4.4.8 wants react@^0.14.0 || ^15.0.0-0 || ^15.4.0-0 || ^16.0.0-0
+766 error peerinvalid Peer react-router@2.8.1 wants react@^0.14.0 || ^15.0.0
+766 error peerinvalid Peer react-addons-test-utils@0.14.8 wants react@^0.14.8
+766 error peerinvalid Peer react-router-dom@4.0.0 wants react@^15
+767 verbose exit [ 1, true ]
