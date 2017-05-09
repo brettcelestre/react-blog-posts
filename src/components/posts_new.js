@@ -29,7 +29,10 @@ class PostsNew extends Component {
 
   onSubmit(values){
     // Submits values through createPost action
-    this.props.createPost(values);
+    this.props.createPost(values, () => {
+      // Callback fn navigates to '/' route
+      this.props.history.push('/');
+    });
   }
 
   render(){
