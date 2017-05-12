@@ -44,6 +44,7 @@ class PostsNew extends Component {
           name="title"
           label="Title"
           component={this.renderField}
+          className=""
         />
         <Field
           name="categories"
@@ -71,7 +72,7 @@ function validate(values){
   } else if ( !values.categories ) {
     errors.categories = "Enter at least one category!";
   } else if ( !values.content ) {
-    errors.content = "Enter some content!";
+    errors.content = "Enter some content! GEOFF SAYS!!!!";
   }
 
   // If errors is empty, the form is fine to submit
